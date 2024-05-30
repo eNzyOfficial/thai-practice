@@ -1,10 +1,12 @@
 <script setup>
 import { computed, ref, onMounted } from 'vue';
 import { useAlphabetStore } from '@/stores/alphabet';
-
-const backButton = () => history.back();
+import { useRouter } from 'vue-router';
 
 const alphabetStore = useAlphabetStore();
+const router = useRouter();
+
+const backButton = () => router.push({ name: 'home' });
 
 const vowels = ref(true);
 const consonants = ref(true);
@@ -23,7 +25,7 @@ onMounted(() => resetGame());
 
 function getNextCharacter() {
     cheat.value = false
-    
+
     if (!infinite.value && currentIndex.value >= alphabet.value.length - 1) {
         gameFinished.value = true;
         return;

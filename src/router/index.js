@@ -1,6 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ConsonantsView from '../views/ConsonantView.vue'
 import ClassView from '../views/ClassView.vue'
 import DeadLiveView from '../views/DeadLiveView.vue'
 import AlphabetFlashCardView from '../views/AlphabetFlashCardView.vue'
@@ -12,11 +11,6 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
-    },
-    {
-      path: '/consonants',
-      name: 'consonants',
-      component: ConsonantsView
     },
     {
       path: '/classes',

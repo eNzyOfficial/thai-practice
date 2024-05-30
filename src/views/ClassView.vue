@@ -1,10 +1,12 @@
 <script setup>
 import { computed, ref } from 'vue';
 import { useAlphabetStore } from '@/stores/alphabet';
-
-const backButton = () => history.back();
+import { useRouter } from 'vue-router';
 
 const alphabetStore = useAlphabetStore();
+const router = useRouter();
+
+const backButton = () => router.push({ name: 'home' });
 
 const cheat = ref(false);
 const infinite = ref(false);
@@ -101,29 +103,30 @@ function shuffleCharacters(value) {
             </template>
         </van-cell>
 
+        <van-space class="w-full justify-between">
+            <van-cell title="Correct/Incorrect" :label="currentScore.correct + '/' + currentScore.incorrect" />
+            <van-cell title="Total" :label="currentScore.total" />
+            <van-cell title="Accuracy" :label="currentScore.accuracy + '%'" />
+            <van-cell title="Score" :label="currentScore.score" />
+        </van-space>
+
         <div class="flex flex-col flex-grow p-4">
             <div class="flex flex-col text-center flex-grow justify-center">
                 <p v-if="!gameFinished" class="text-8xl">{{ currentCharacter.character }}</p>
-                <span v-if="!gameFinished" class="text-sm text-slate-200 cursor-default" @click="cheat = !cheat">{{ cheat ?
-            currentCharacter.class :
-            'cheat'
+                <span v-if="!gameFinished" class="text-sm text-slate-200 cursor-default" @click="cheat = !cheat">{{
+                    cheat ?
+                        currentCharacter.class :
+                    'cheat'
                     }}</span>
             </div>
 
             <p v-if="!infinite && !gameFinished" class="text-center text-md mb-4">{{ currentIndex + 1 }} of {{
-            alphabet.length }}</p>
+                alphabet.length }}</p>
 
             <van-space direction="vertical" fill v-if="!gameFinished">
                 <van-button type="primary" block @click="answerQuestion('high')">High</van-button>
                 <van-button type="primary" block @click="answerQuestion('mid')">Middle</van-button>
                 <van-button type="primary" block @click="answerQuestion('low')">Low</van-button>
-            </van-space>
-
-            <van-space class="w-full justify-between">
-                <van-cell title="Correct/Incorrect" :label="currentScore.correct + '/' + currentScore.incorrect" />
-                <van-cell title="Total" :label="currentScore.total" />
-                <van-cell title="Accuracy" :label="currentScore.accuracy + '%'" />
-                <van-cell title="Score" :label="currentScore.score" />
             </van-space>
 
             <van-button type="primary" round @click="resetGame" v-if="gameFinished">Reset</van-button>
