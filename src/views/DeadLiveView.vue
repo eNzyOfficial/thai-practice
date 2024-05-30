@@ -20,13 +20,13 @@ const currentScore = ref({
     score: 0,
 });
 
-const alphabet = ref(alphabetStore.classCharacters);
+const alphabet = ref(alphabetStore.deadLiveCharacters);
 const currentCharacter = computed(() => alphabet.value[currentIndex.value]);
 
 function answerQuestion(answer) {
     cheat.value = false;
 
-    if (answer === currentCharacter.value.class) {
+    if (answer === currentCharacter.value.is_live) {
         currentScore.value.correct++;
         currentScore.value.score += 10;
     } else {
@@ -56,8 +56,8 @@ function getNextCharacter() {
 
 function resetGame() {
     alphabet.value = shuffle.value
-        ? alphabetStore.classCharacters.slice().sort(() => Math.random() - 0.5)
-        : alphabetStore.classCharacters;
+        ? alphabetStore.deadLiveCharacters.slice().sort(() => Math.random() - 0.5)
+        : alphabetStore.deadLiveCharacters;
 
     currentIndex.value = 0;
 
@@ -87,8 +87,7 @@ function shuffleCharacters(value) {
 
 <template>
     <div class="min-h-screen flex flex-col">
-        <van-nav-bar title="Character Classes" left-text="Back" left-arrow @click-left="backButton" />
-
+        <van-nav-bar title="Character Dead/Live" left-text="Back" left-arrow @click-left="backButton" />
 
         <van-cell center title="Infinite Mode">
             <template #right-icon>
@@ -105,7 +104,7 @@ function shuffleCharacters(value) {
             <div class="flex flex-col text-center flex-grow justify-center">
                 <p v-if="!gameFinished" class="text-8xl">{{ currentCharacter.character }}</p>
                 <span v-if="!gameFinished" class="text-sm text-slate-200 cursor-default" @click="cheat = !cheat">{{ cheat ?
-            currentCharacter.class :
+            (currentCharacter.is_live ? 'live' : 'dead') :
             'cheat'
                     }}</span>
             </div>
@@ -114,9 +113,8 @@ function shuffleCharacters(value) {
             alphabet.length }}</p>
 
             <van-space direction="vertical" fill v-if="!gameFinished">
-                <van-button type="primary" block @click="answerQuestion('high')">High</van-button>
-                <van-button type="primary" block @click="answerQuestion('mid')">Middle</van-button>
-                <van-button type="primary" block @click="answerQuestion('low')">Low</van-button>
+                <van-button type="primary" block @click="answerQuestion(false)">Dead</van-button>
+                <van-button type="primary" block @click="answerQuestion(true)">Live</van-button>
             </van-space>
 
             <van-space class="w-full justify-between">

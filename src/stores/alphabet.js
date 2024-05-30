@@ -11,8 +11,10 @@ export const useAlphabetStore = defineStore('alphabet', () => {
 
   const characters = computed(() => data.value.filter(letter => ['consonant', 'vowel'].includes(letter.type)))
   const numbers = computed(() => data.value.filter(letter => letter.type === 'digit'))
-  const live = computed(() => data.value.filter(letter => letter.is_live))
-  const dead = computed(() => data.value.filter(letter => !letter.is_live))
+
+  const deadLiveCharacters = computed(() => data.value.filter(letter => [true, false].includes(letter.is_live)))
+  const live = computed(() => deadLiveCharacters.value.filter(letter => letter.is_live))
+  const dead = computed(() => deadLiveCharacters.value.filter(letter => !letter.is_live))
 
   const classCharacters = computed(() => data.value.filter(letter => ['low', 'mid', 'high'].includes(letter.class)))
   const lowClass = computed(() => classCharacters.value.filter(letter => letter.class === 'low'))
@@ -30,6 +32,7 @@ export const useAlphabetStore = defineStore('alphabet', () => {
     vowels,
     characters,
     numbers,
+    deadLiveCharacters,
     live,
     dead,
     classCharacters,

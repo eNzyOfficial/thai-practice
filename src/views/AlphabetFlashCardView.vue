@@ -1,10 +1,14 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 import { useAlphabetStore } from '@/stores/alphabet';
 
 const backButton = () => history.back();
 
 const alphabetStore = useAlphabetStore();
+
+const vowels = ref(true);
+const consonants = ref(true);
+const numbers = ref(true);
 
 const cheat = ref(false);
 const infinite = ref(false);
@@ -12,38 +16,14 @@ const shuffle = ref(false);
 const gameFinished = ref(false);
 const currentIndex = ref(0);
 
-const currentScore = ref({
-    correct: 0,
-    incorrect: 0,
-    total: 0,
-    accuracy: 0,
-    score: 0,
-});
-
 const alphabet = ref(alphabetStore.classCharacters);
 const currentCharacter = computed(() => alphabet.value[currentIndex.value]);
 
-function answerQuestion(answer) {
-    cheat.value = false;
-
-    if (answer === currentCharacter.value.class) {
-        currentScore.value.correct++;
-        currentScore.value.score += 10;
-    } else {
-        currentScore.value.incorrect++;
-        currentScore.value.score -= 5;
-    }
-
-    recalculateScore();
-    getNextCharacter();
-}
-
-function recalculateScore() {
-    currentScore.value.total = currentScore.value.correct + currentScore.value.incorrect;
-    currentScore.value.accuracy = Math.round((currentScore.value.correct / currentScore.value.total) * 100);
-}
+onMounted(() => resetGame());
 
 function getNextCharacter() {
+    cheat.value = false
+    
     if (!infinite.value && currentIndex.value >= alphabet.value.length - 1) {
         gameFinished.value = true;
         return;
@@ -61,13 +41,23 @@ function resetGame() {
 
     currentIndex.value = 0;
 
-    currentScore.value = {
-        correct: 0,
-        incorrect: 0,
-        total: 0,
-        accuracy: 0,
-        score: 0,
-    };
+    let characters = []
+
+    if (vowels.value) {
+        characters = characters.concat(alphabetStore.vowels)
+    }
+
+    if (consonants.value) {
+        characters = characters.concat(alphabetStore.consonants)
+    }
+
+    if (numbers.value) {
+        characters = characters.concat(alphabetStore.numbers)
+    }
+
+    alphabet.value = shuffle.value
+        ? characters.slice().sort(() => Math.random() - 0.5)
+        : characters;
 
     gameFinished.value = false;
     cheat.value = false;
@@ -80,6 +70,26 @@ function changeGameMode(value) {
 
 function shuffleCharacters(value) {
     shuffle.value = value;
+
+    resetGame();
+}
+
+function setCharacter(type, value) {
+    if (!value && [vowels.value, consonants.value, numbers.value].filter(v => v).length < 2) {
+        return;
+    }
+
+    switch (type) {
+        case 'vowels':
+            vowels.value = value;
+            break;
+        case 'consonants':
+            consonants.value = value;
+            break;
+        case 'numbers':
+            numbers.value = value;
+            break;
+    }
 
     resetGame();
 }
@@ -100,32 +110,31 @@ function shuffleCharacters(value) {
                 <van-switch :model-value="shuffle" @update:model-value="shuffleCharacters" />
             </template>
         </van-cell>
+        <van-cell center title="Vowels">
+            <van-switch :model-value="vowels" @update:model-value="value => setCharacter('vowels', value)" />
+        </van-cell>
+        <van-cell center title="Consonants">
+            <van-switch :model-value="consonants" @update:model-value="value => setCharacter('consonants', value)" />
+        </van-cell>
+        <van-cell center title="Numbers">
+            <van-switch :model-value="numbers" @update:model-value="value => setCharacter('numbers', value)" />
+        </van-cell>
 
         <div class="flex flex-col flex-grow p-4">
             <div class="flex flex-col text-center flex-grow justify-center">
                 <p v-if="!gameFinished" class="text-8xl">{{ currentCharacter.character }}</p>
-                <span v-if="!gameFinished" class="text-sm text-slate-200 cursor-default" @click="cheat = !cheat">{{ cheat ?
-            currentCharacter.class :
-            'cheat'
-                    }}</span>
+                <span v-if="!gameFinished && !cheat" class="text-sm text-slate-300 cursor-default" @click="cheat = true">Show information</span>
+                <p v-if="!gameFinished && cheat" class="text-sm cursor-default" @click="cheat = false">
+                    Name: {{ currentCharacter.name }}<br>
+                    Type: {{ currentCharacter.type }}<br>
+                    Example: {{ currentCharacter.example }} ({{ currentCharacter.example_english }})
+                </p>
             </div>
 
             <p v-if="!infinite && !gameFinished" class="text-center text-md mb-4">{{ currentIndex + 1 }} of {{
             alphabet.length }}</p>
 
-            <van-space direction="vertical" fill v-if="!gameFinished">
-                <van-button type="primary" block @click="answerQuestion('high')">High</van-button>
-                <van-button type="primary" block @click="answerQuestion('mid')">Middle</van-button>
-                <van-button type="primary" block @click="answerQuestion('low')">Low</van-button>
-            </van-space>
-
-            <van-space class="w-full justify-between">
-                <van-cell title="Correct/Incorrect" :label="currentScore.correct + '/' + currentScore.incorrect" />
-                <van-cell title="Total" :label="currentScore.total" />
-                <van-cell title="Accuracy" :label="currentScore.accuracy + '%'" />
-                <van-cell title="Score" :label="currentScore.score" />
-            </van-space>
-
+            <van-button type="primary" round @click="getNextCharacter" v-if="!gameFinished">Next</van-button>
             <van-button type="primary" round @click="resetGame" v-if="gameFinished">Reset</van-button>
         </div>
     </div>
