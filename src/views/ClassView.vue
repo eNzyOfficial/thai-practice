@@ -104,7 +104,10 @@ function shuffleCharacters(value) {
         <div class="flex flex-col flex-grow p-4">
             <div class="flex flex-col text-center flex-grow justify-center">
                 <p v-if="!gameFinished" class="text-8xl">{{ currentCharacter.character }}</p>
-                <span v-if="cheat" class="text-sm">{{ currentCharacter.class }}</span>
+                <span class="text-sm text-slate-200 cursor-default" @click="cheat = !cheat">{{ cheat ?
+            currentCharacter.class :
+            'cheat'
+                    }}</span>
             </div>
 
             <p v-if="!infinite && !gameFinished" class="text-center text-md mb-4">{{ currentIndex + 1 }} of {{
