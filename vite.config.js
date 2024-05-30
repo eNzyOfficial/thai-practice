@@ -8,7 +8,10 @@ import Components from 'unplugin-vue-components/vite';
 import { VantResolver } from '@vant/auto-import-resolver';
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production'
+    ? '/thai-practice/'
+    : '/',
   plugins: [
     vue(),
     VueDevTools(),
@@ -24,4 +27,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   }
-})
+}))
