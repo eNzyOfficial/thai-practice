@@ -99,7 +99,7 @@ function setCharacter(type, value) {
 
 <template>
     <div class="min-h-screen flex flex-col">
-        <van-nav-bar title="Character Classes" left-text="Back" left-arrow @click-left="backButton" />
+        <van-nav-bar title="Character Flash Cards" left-text="Back" left-arrow @click-left="backButton" />
 
 
         <van-cell center title="Infinite Mode">
