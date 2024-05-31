@@ -21,9 +21,9 @@ export const useAlphabetStore = defineStore('alphabet', () => {
   const midClass = computed(() => classCharacters.value.filter(letter => letter.class === 'mid'))
   const highClass = computed(() => classCharacters.value.filter(letter => letter.class === 'high'))
 
-  function getClasses(classesArray) {
-    return data.value.filter(letter => classesArray.includes(letter.class))
-  }
+  const shortLongCharacters = computed(() => data.value.filter(letter => [true, false].includes(letter.is_short)))
+  const short = computed(() => shortLongCharacters.value.filter(letter => letter.length === 'short'))
+  const long = computed(() => shortLongCharacters.value.filter(letter => letter.length === 'long'))
 
   return {
     data,
@@ -39,6 +39,8 @@ export const useAlphabetStore = defineStore('alphabet', () => {
     lowClass,
     midClass,
     highClass,
-    getClasses
+    shortLongCharacters,
+    short,
+    long,
   }
 })

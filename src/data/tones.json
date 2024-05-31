@@ -1,0 +1,1042 @@
+[
+    {
+        "word": "กา",
+        "pronunciation": "kaa",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ก่า",
+        "pronunciation": "kàa",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ก้า",
+        "pronunciation": "kâa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ก๊า",
+        "pronunciation": "káa",
+        "tone": "high",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "๊", "tone": "high"}
+        }
+    },
+    {
+        "word": "กา๋",
+        "pronunciation": "kǎa",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "๋", "tone": "rising"}
+        }
+    },
+    {
+        "word": "ขา",
+        "pronunciation": "khǎa",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ข่า",
+        "pronunciation": "khàa",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ข้า",
+        "pronunciation": "khâa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ค่า",
+        "pronunciation": "khâa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ค", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ขา",
+        "pronunciation": "khǎa",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ข่า",
+        "pronunciation": "khàa",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ข้า",
+        "pronunciation": "khâa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ค่า",
+        "pronunciation": "khâa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ค", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "คา",
+        "pronunciation": "khaa",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ค", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ค้า",
+        "pronunciation": "khâa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ค", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "มะ",
+        "pronunciation": "mà",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ม", "class": "low"},
+            "vowel": {"character": "ะ", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "มา",
+        "pronunciation": "maa",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ม", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "หมา",
+        "pronunciation": "mǎa",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "หม่า",
+        "pronunciation": "màa",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ห้า",
+        "pronunciation": "hâa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ห๊า",
+        "pronunciation": "háa",
+        "tone": "high",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "๊", "tone": "high"}
+        }
+    },
+    {
+        "word": "หมา๋",
+        "pronunciation": "mǎa",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "๋", "tone": "rising"}
+        }
+    },
+    {
+        "word": "ไม้",
+        "pronunciation": "mái",
+        "tone": "high",
+        "components": {
+            "consonant": {"character": "ม", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "high"}
+        }
+    },
+    {
+        "word": "แม้",
+        "pronunciation": "mɛ́ɛ",
+        "tone": "high",
+        "components": {
+            "consonant": {"character": "ม", "class": "low"},
+            "vowel": {"character": "แ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "high"}
+        }
+    },
+    {
+        "word": "ใกล้",
+        "pronunciation": "glâi",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "ใ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ให้",
+        "pronunciation": "hâi",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "ไ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "รู้",
+        "pronunciation": "rúu",
+        "tone": "high",
+        "components": {
+            "consonant": {"character": "ร", "class": "low"},
+            "vowel": {"character": "ู", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "high"}
+        }
+    },
+    {
+        "word": "เบา",
+        "pronunciation": "bao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "บ", "class": "mid"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เฟา",
+        "pronunciation": "fao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ฟ", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เกา",
+        "pronunciation": "gao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เมา",
+        "pronunciation": "mao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ม", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เหา",
+        "pronunciation": "hǎo",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เจา",
+        "pronunciation": "jao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "จ", "class": "mid"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เตา",
+        "pronunciation": "tao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ต", "class": "mid"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เชา",
+        "pronunciation": "chao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ช", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เดา",
+        "pronunciation": "dao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ด", "class": "mid"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เร้า",
+        "pronunciation": "ráo",
+        "tone": "high",
+        "components": {
+            "consonant": {"character": "ร", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "high"}
+        }
+    },
+    {
+        "word": "เร่า",
+        "pronunciation": "râo",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ร", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "เนา",
+        "pronunciation": "nao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "น", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เพ้า",
+        "pronunciation": "phâo",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "พ", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "เลา",
+        "pronunciation": "lao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ล", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เซา",
+        "pronunciation": "sao",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ซ", "class": "low"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เด้า",
+        "pronunciation": "dâo",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ด", "class": "mid"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "เหลา",
+        "pronunciation": "lǎo",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "เ-า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "กอบ",
+        "pronunciation": "gòp",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "อ", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ขอ",
+        "pronunciation": "khǎw",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "อ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "คอม",
+        "pronunciation": "khɔɔm",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ค", "class": "low"},
+            "vowel": {"character": "อ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ดิน",
+        "pronunciation": "din",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ด", "class": "mid"},
+            "vowel": {"character": "ิ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ตึก",
+        "pronunciation": "tʉ̀k",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ต", "class": "mid"},
+            "vowel": {"character": "ึ", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ฝาก",
+        "pronunciation": "fàak",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ฟ", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "งู",
+        "pronunciation": "ngu",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ง", "class": "low"},
+            "vowel": {"character": "ู", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "นั่ง",
+        "pronunciation": "nâng",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "น", "class": "low"},
+            "vowel": {"character": "ั", "length": "short", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "มุ่ง",
+        "pronunciation": "mûng",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ม", "class": "low"},
+            "vowel": {"character": "ุ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ลุง",
+        "pronunciation": "lung",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ล", "class": "low"},
+            "vowel": {"character": "ุ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เสา",
+        "pronunciation": "sǎo",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ส", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "จอด",
+        "pronunciation": "jɔ̀ɔt",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "จ", "class": "mid"},
+            "vowel": {"character": "อ", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ป้อม",
+        "pronunciation": "pôm",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ป", "class": "mid"},
+            "vowel": {"character": "อ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "โบย",
+        "pronunciation": "booy",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "บ", "class": "mid"},
+            "vowel": {"character": "โ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ผสม",
+        "pronunciation": "phà-sǒm",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ผ", "class": "high"},
+            "vowel": {"character": "ะ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "หวาน",
+        "pronunciation": "wǎan",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "หยุด",
+        "pronunciation": "yùt",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "ุ", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ไก่",
+        "pronunciation": "gài",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "ไ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ข้าว",
+        "pronunciation": "khâaw",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ยาว",
+        "pronunciation": "yaaw",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ย", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "แก้ว",
+        "pronunciation": "gɛ̂ɛw",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "แ", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "สำ",
+        "pronunciation": "sǎm",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ส", "class": "high"},
+            "vowel": {"character": "ำ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "จัก",
+        "pronunciation": "jàk",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "จ", "class": "mid"},
+            "vowel": {"character": "ั", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "ที่",
+        "pronunciation": "thîi",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ท", "class": "mid"},
+            "vowel": {"character": "ี", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "โง่",
+        "pronunciation": "ngôo",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ง", "class": "low"},
+            "vowel": {"character": "โ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "หวัง",
+        "pronunciation": "wǎng",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "ั", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "หลง",
+        "pronunciation": "lǒng",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "โ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "อย่า",
+        "pronunciation": "yàa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "อ", "class": "mid"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ดูด",
+        "pronunciation": "dùut",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ด", "class": "mid"},
+            "vowel": {"character": "ู", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "รัก",
+        "pronunciation": "rák",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ร", "class": "low"},
+            "vowel": {"character": "ั", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ฝัน",
+        "pronunciation": "fǎn",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ฝ", "class": "high"},
+            "vowel": {"character": "ั", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "โสม",
+        "pronunciation": "sǒom",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ส", "class": "high"},
+            "vowel": {"character": "โ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ห่อ",
+        "pronunciation": "hɔ̀ɔ",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "อ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "คุ้น",
+        "pronunciation": "khún",
+        "tone": "high",
+        "components": {
+            "consonant": {"character": "ค", "class": "low"},
+            "vowel": {"character": "ุ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "high"}
+        }
+    },
+    {
+        "word": "เพื่อน",
+        "pronunciation": "phûean",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "พ", "class": "low"},
+            "vowel": {"character": "ื", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "นก",
+        "pronunciation": "nók",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "น", "class": "low"},
+            "vowel": {"character": "โ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ทำ",
+        "pronunciation": "tham",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ท", "class": "mid"},
+            "vowel": {"character": "ำ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ซ่อน",
+        "pronunciation": "sɔ̂ɔn",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ซ", "class": "low"},
+            "vowel": {"character": "อ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "สั้น",
+        "pronunciation": "sân",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ส", "class": "high"},
+            "vowel": {"character": "ั", "length": "short", "type": "live"},
+            "tone_mark": {"character": "้", "tone": "falling"}
+        }
+    },
+    {
+        "word": "ขาย",
+        "pronunciation": "khǎay",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เผา",
+        "pronunciation": "phǎo",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ผ", "class": "high"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เถอะ",
+        "pronunciation": "thòe",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ถ", "class": "high"},
+            "vowel": {"character": "เ-อะ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ก่ำ",
+        "pronunciation": "gàm",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "ำ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "แจง",
+        "pronunciation": "jɛɛng",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "จ", "class": "mid"},
+            "vowel": {"character": "แ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ง่า",
+        "pronunciation": "ngàa",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ง", "class": "low"},
+            "vowel": {"character": "า", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "โก",
+        "pronunciation": "goo",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ก", "class": "mid"},
+            "vowel": {"character": "โ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ขน",
+        "pronunciation": "khǒn",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ข", "class": "high"},
+            "vowel": {"character": "โ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ฝัก",
+        "pronunciation": "fàk",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ฝ", "class": "high"},
+            "vowel": {"character": "ั", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "หมี",
+        "pronunciation": "mǐi",
+        "tone": "rising",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "ี", "length": "long", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "โทษ",
+        "pronunciation": "thôot",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ท", "class": "mid"},
+            "vowel": {"character": "โ", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ช่วย",
+        "pronunciation": "chûuai",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ช", "class": "high"},
+            "vowel": {"character": "ั", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "นม",
+        "pronunciation": "nom",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "น", "class": "low"},
+            "vowel": {"character": "ม", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ท่อ",
+        "pronunciation": "thɔ̂ɔ",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ท", "class": "mid"},
+            "vowel": {"character": "อ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "น่อง",
+        "pronunciation": "nɔ̂ɔng",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "น", "class": "low"},
+            "vowel": {"character": "อ", "length": "long", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    },
+    {
+        "word": "อุด",
+        "pronunciation": "ùt",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "อ", "class": "mid"},
+            "vowel": {"character": "ุ", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "เร็ว",
+        "pronunciation": "rêo",
+        "tone": "mid",
+        "components": {
+            "consonant": {"character": "ร", "class": "low"},
+            "vowel": {"character": "เ-อว", "length": "short", "type": "live"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ประ",
+        "pronunciation": "bpra",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ป", "class": "mid"},
+            "vowel": {"character": "ะ", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "บัก",
+        "pronunciation": "bák",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "บ", "class": "mid"},
+            "vowel": {"character": "ั", "length": "short", "type": "dead"},
+            "tone_mark": {"character": "", "tone": ""}
+        }
+    },
+    {
+        "word": "ปวด",
+        "pronunciation": "pwòt",
+        "tone": "falling",
+        "components": {
+            "consonant": {"character": "ป", "class": "mid"},
+            "vowel": {"character": "ว", "length": "long", "type": "dead"},
+            "tone_mark": {"character": "่", "tone": "falling"}
+        }
+    },
+    {
+        "word": "แหละ",
+        "pronunciation": "lɛ̀",
+        "tone": "low",
+        "components": {
+            "consonant": {"character": "ห", "class": "high"},
+            "vowel": {"character": "แะ", "length": "short", "type": "live"},
+            "tone_mark": {"character": "่", "tone": "low"}
+        }
+    }
+]

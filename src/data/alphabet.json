@@ -1,87 +1,87 @@
 [
     {
         "character": "ก",
-        "name": "ko kai",
+        "name": "gaw gai",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "k",
-        "example": "ไก่ (kai)",
+        "example": "ไก่ (gai)",
         "example_english": "chicken"
     },
     {
         "character": "ข",
-        "name": "kho khai",
+        "name": "kaw kai",
         "class": "high",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "kʰ",
-        "example": "ไข่ (khai)",
+        "example": "ไข่ (kai)",
         "example_english": "egg"
     },
     {
         "character": "ฃ",
-        "name": "kho khuat",
+        "name": "kaw kuat",
         "class": "high",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "kʰ",
-        "example": "ฃวด (khuat)",
+        "example": "ฃวด (kuat)",
         "example_english": "bottle"
     },
     {
         "character": "ค",
-        "name": "kho khwai",
-        "class": "low",
-        "type": "consonant",
-        "is_live": true,
-        "ipa": "kʰ",
-        "example": "ควาย (khwai)",
-        "example_english": "water buffalo"
-    },
-    {
-        "character": "ฅ",
-        "name": "kho khon",
-        "class": "low",
-        "type": "consonant",
-        "is_live": true,
-        "ipa": "kʰ",
-        "example": "คน (khon)",
-        "example_english": "person"
-    },
-    {
-        "character": "ฆ",
-        "name": "kho ra-khang",
+        "name": "kaw kwaai",
         "class": "low",
         "type": "consonant",
         "is_live": false,
         "ipa": "kʰ",
-        "example": "ระฆัง (ra-khang)",
+        "example": "ควาย (kwaai)",
+        "example_english": "water buffalo"
+    },
+    {
+        "character": "ฅ",
+        "name": "kaw kon",
+        "class": "low",
+        "type": "consonant",
+        "is_live": false,
+        "ipa": "kʰ",
+        "example": "คน (kon)",
+        "example_english": "person"
+    },
+    {
+        "character": "ฆ",
+        "name": "kaw ra-kang",
+        "class": "low",
+        "type": "consonant",
+        "is_live": false,
+        "ipa": "kʰ",
+        "example": "ระฆัง (ra-kang)",
         "example_english": "bell"
     },
     {
         "character": "ง",
-        "name": "ngo ngu",
+        "name": "ngaw ngoo",
         "class": "low",
         "type": "consonant",
         "is_live": true,
         "ipa": "ŋ",
-        "example": "งู (ngu)",
+        "example": "งู (ngoo)",
         "example_english": "snake"
     },
     {
         "character": "จ",
-        "name": "cho chan",
+        "name": "jaw jaan",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "t͡ɕ",
-        "example": "จาน (chan)",
+        "example": "จาน (jaan)",
         "example_english": "plate"
     },
     {
         "character": "ฉ",
-        "name": "cho ching",
+        "name": "chaw ching",
         "class": "high",
         "type": "consonant",
         "is_live": false,
@@ -91,97 +91,97 @@
     },
     {
         "character": "ช",
-        "name": "cho chang",
+        "name": "chaw chaang",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "t͡ɕʰ",
-        "example": "ช้าง (chang)",
+        "example": "ช้าง (chaang)",
         "example_english": "elephant"
     },
     {
         "character": "ซ",
-        "name": "so so",
+        "name": "saw so",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "s",
         "example": "โซ่ (so)",
         "example_english": "chain"
     },
     {
         "character": "ฌ",
-        "name": "cho choe",
+        "name": "chaw ga cheuh",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "t͡ɕʰ",
-        "example": "เฌอ (choe)",
+        "example": "เฌอ (cheuh)",
         "example_english": "tree"
     },
     {
         "character": "ญ",
-        "name": "yo ying",
+        "name": "yaw pooying",
         "class": "low",
         "type": "consonant",
         "is_live": true,
         "ipa": "j",
-        "example": "หญิง (ying)",
+        "example": "หญิง (pooying)",
         "example_english": "woman"
     },
     {
         "character": "ฎ",
-        "name": "do cha-da",
+        "name": "daw cha-da",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "d",
-        "example": "ฎีกา (diga)",
+        "example": "ชฎา (cha-da)",
         "example_english": "appeal"
     },
     {
         "character": "ฏ",
-        "name": "to pa-tak",
+        "name": "dta bpa-dtak",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "t",
-        "example": "ปฏัก (patak)",
-        "example_english": "goad"
+        "example": "ปฏัก (bpa-dtak)",
+        "example_english": "spear"
     },
     {
         "character": "ฐ",
-        "name": "tho than",
+        "name": "taw taan",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "tʰ",
         "example": "ฐาน (than)",
-        "example_english": "pedestal"
+        "example_english": "base"
     },
     {
         "character": "ฑ",
-        "name": "tho montho",
+        "name": "taw naangmonto",
         "class": "low",
         "type": "consonant",
         "is_live": false,
         "ipa": "tʰ",
-        "example": "มณโฑ (montho)",
+        "example": "มณโฑ (monto)",
         "example_english": "Montho (a character from the Ramayana)"
     },
     {
         "character": "ฒ",
-        "name": "tho phu-thao",
+        "name": "taw pootao",
         "class": "low",
         "type": "consonant",
         "is_live": false,
         "ipa": "tʰ",
-        "example": "ผู้เฒ่า (phu-thao)",
+        "example": "ผู้เฒ่า (pootao)",
         "example_english": "elder"
     },
     {
         "character": "ณ",
-        "name": "no nen",
+        "name": "naw nen",
         "class": "low",
         "type": "consonant",
         "is_live": true,
@@ -191,137 +191,137 @@
     },
     {
         "character": "ด",
-        "name": "do dek",
+        "name": "daw dek",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "d",
         "example": "เด็ก (dek)",
         "example_english": "child"
     },
     {
         "character": "ต",
-        "name": "to tao",
+        "name": "dtaw dtao",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "t",
-        "example": "เต่า (tao)",
+        "example": "เต่า (dtao)",
         "example_english": "turtle"
     },
     {
         "character": "ถ",
-        "name": "tho thung",
+        "name": "taw toong",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "tʰ",
-        "example": "ถุง (thung)",
+        "example": "ถุง (toong)",
         "example_english": "bag"
     },
     {
         "character": "ท",
-        "name": "tho thahan",
+        "name": "taw tahaan",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "tʰ",
-        "example": "ทหาร (thahan)",
+        "example": "ทหาร (tahaan)",
         "example_english": "soldier"
     },
     {
         "character": "ธ",
-        "name": "tho thong",
+        "name": "taw tong",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "tʰ",
-        "example": "ธง (thong)",
+        "example": "ธง (tong)",
         "example_english": "flag"
     },
     {
         "character": "น",
-        "name": "no nu",
+        "name": "naw noo",
         "class": "low",
         "type": "consonant",
         "is_live": true,
         "ipa": "n",
-        "example": "หนู (nu)",
+        "example": "หนู (noo)",
         "example_english": "mouse"
     },
     {
         "character": "บ",
-        "name": "bo baimai",
+        "name": "baw baimai",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "b",
         "example": "ใบไม้ (baimai)",
         "example_english": "leaf"
     },
     {
         "character": "ป",
-        "name": "po pla",
+        "name": "bpaw bpla",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "p",
-        "example": "ปลา (pla)",
+        "example": "ปลา (bpla)",
         "example_english": "fish"
     },
     {
         "character": "ผ",
-        "name": "pho phueng",
+        "name": "paw peung",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "pʰ",
-        "example": "ผึ้ง (phueng)",
+        "example": "ผึ้ง (peung)",
         "example_english": "bee"
     },
     {
         "character": "ฝ",
-        "name": "fo fa",
+        "name": "faw faa",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "f",
-        "example": "ฝา (fa)",
-        "example_english": "lid"
+        "example": "ฝา (faa)",
+        "example_english": "lid/cover"
     },
     {
         "character": "พ",
-        "name": "pho phan",
+        "name": "paw paan",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "pʰ",
         "example": "พาน (phan)",
         "example_english": "tray"
     },
     {
         "character": "ฟ",
-        "name": "fo fan",
+        "name": "faw fan",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "f",
         "example": "ฟัน (fan)",
         "example_english": "tooth"
     },
     {
         "character": "ภ",
-        "name": "pho sam-phao",
+        "name": "paw sampao",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "pʰ",
-        "example": "สำเภา (sam-phao)",
+        "example": "สำเภา (sampao)",
         "example_english": "junk (boat)"
     },
     {
         "character": "ม",
-        "name": "mo ma",
+        "name": "maw maa",
         "class": "low",
         "type": "consonant",
         "is_live": true,
@@ -331,7 +331,7 @@
     },
     {
         "character": "ย",
-        "name": "yo yak",
+        "name": "yaw yak",
         "class": "low",
         "type": "consonant",
         "is_live": true,
@@ -341,17 +341,17 @@
     },
     {
         "character": "ร",
-        "name": "ro rua",
+        "name": "raw reua",
         "class": "low",
         "type": "consonant",
         "is_live": true,
         "ipa": "r",
-        "example": "เรือ (rua)",
+        "example": "เรือ (reua)",
         "example_english": "boat"
     },
     {
         "character": "ล",
-        "name": "lo ling",
+        "name": "law ling",
         "class": "low",
         "type": "consonant",
         "is_live": true,
@@ -361,7 +361,7 @@
     },
     {
         "character": "ว",
-        "name": "wo waen",
+        "name": "waw waen",
         "class": "low",
         "type": "consonant",
         "is_live": true,
@@ -371,7 +371,7 @@
     },
     {
         "character": "ศ",
-        "name": "so sala",
+        "name": "saw kaw sala",
         "class": "high",
         "type": "consonant",
         "is_live": false,
@@ -381,27 +381,27 @@
     },
     {
         "character": "ษ",
-        "name": "so rue-si",
+        "name": "saw baw rue-see",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "s",
-        "example": "ฤาษี (rue-si)",
+        "example": "ฤาษี (rue-see)",
         "example_english": "hermit"
     },
     {
         "character": "ส",
-        "name": "so suea",
+        "name": "saw seua",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "s",
-        "example": "เสือ (suea)",
+        "example": "เสือ (seua)",
         "example_english": "tiger"
     },
     {
         "character": "ห",
-        "name": "ho hip",
+        "name": "haw heep",
         "class": "high",
         "type": "consonant",
         "is_live": false,
@@ -411,42 +411,43 @@
     },
     {
         "character": "ฬ",
-        "name": "lo chu-la",
+        "name": "law joolaa",
         "class": "low",
         "type": "consonant",
         "is_live": true,
         "ipa": "l",
-        "example": "จุฬา (chu-la)",
+        "example": "จุฬา (joolaa)",
         "example_english": "kite"
     },
     {
         "character": "อ",
-        "name": "o ang",
+        "name": "aw aang",
         "class": "mid",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "ʔ",
-        "example": "อ่าง (ang)",
+        "example": "อ่าง (aang)",
         "example_english": "basin"
     },
     {
         "character": "ฮ",
-        "name": "ho nok-huk",
+        "name": "haw nok-hook",
         "class": "low",
         "type": "consonant",
-        "is_live": true,
+        "is_live": false,
         "ipa": "h",
-        "example": "นกฮูก (nok-huk)",
+        "example": "นกฮูก (nok-hook)",
         "example_english": "owl"
     },
     {
         "character": "ะ",
-        "name": "sara a",
+        "name": "sara ah",
         "class": "none",
         "type": "vowel",
         "ipa": "a",
         "example": "มะ (ma)",
-        "example_english": "come"
+        "example_english": "come",
+        "is_short": true
     },
     {
         "character": "ั",
@@ -455,7 +456,8 @@
         "type": "vowel",
         "ipa": "a",
         "example": "มัน (man)",
-        "example_english": "it"
+        "example_english": "it",
+        "is_short": true
     },
     {
         "character": "า",
@@ -464,7 +466,8 @@
         "type": "vowel",
         "ipa": "aː",
         "example": "มา (ma)",
-        "example_english": "come"
+        "example_english": "come",
+        "is_short": false
     },
     {
         "character": "ำ",
@@ -473,7 +476,8 @@
         "type": "vowel",
         "ipa": "am",
         "example": "นำ (nam)",
-        "example_english": "lead"
+        "example_english": "lead",
+        "is_short": true
     },
     {
         "character": "ิ",
@@ -482,7 +486,8 @@
         "type": "vowel",
         "ipa": "i",
         "example": "กิน (kin)",
-        "example_english": "eat"
+        "example_english": "eat",
+        "is_short": true
     },
     {
         "character": "ี",
@@ -491,7 +496,8 @@
         "type": "vowel",
         "ipa": "iː",
         "example": "มี (mi)",
-        "example_english": "have"
+        "example_english": "have",
+        "is_short": false
     },
     {
         "character": "ึ",
@@ -500,7 +506,8 @@
         "type": "vowel",
         "ipa": "ɯ",
         "example": "ตึก (tuek)",
-        "example_english": "building"
+        "example_english": "building",
+        "is_short": true
     },
     {
         "character": "ื",
@@ -509,7 +516,8 @@
         "type": "vowel",
         "ipa": "ɯː",
         "example": "มืด (muet)",
-        "example_english": "dark"
+        "example_english": "dark",
+        "is_short": false
     },
     {
         "character": "ุ",
@@ -518,7 +526,8 @@
         "type": "vowel",
         "ipa": "u",
         "example": "จุ (chu)",
-        "example_english": "to hold"
+        "example_english": "to hold",
+        "is_short": true
     },
     {
         "character": "ู",
@@ -527,7 +536,8 @@
         "type": "vowel",
         "ipa": "uː",
         "example": "ดู (du)",
-        "example_english": "see"
+        "example_english": "see",
+        "is_short": false
     },
     {
         "character": "เ",
@@ -536,7 +546,8 @@
         "type": "vowel",
         "ipa": "e",
         "example": "เป็น (pen)",
-        "example_english": "be"
+        "example_english": "be",
+        "is_short": false
     },
     {
         "character": "แ",
@@ -545,7 +556,8 @@
         "type": "vowel",
         "ipa": "ɛ",
         "example": "แปลง (plaeng)",
-        "example_english": "transform"
+        "example_english": "transform",
+        "is_short": false
     },
     {
         "character": "โ",
@@ -554,7 +566,8 @@
         "type": "vowel",
         "ipa": "o",
         "example": "โกรธ (krot)",
-        "example_english": "angry"
+        "example_english": "angry",
+        "is_short": false
     },
     {
         "character": "ใ",
@@ -563,7 +576,8 @@
         "type": "vowel",
         "ipa": "aj",
         "example": "ใน (nai)",
-        "example_english": "in"
+        "example_english": "in",
+        "is_short": false
     },
     {
         "character": "ไ",
@@ -572,7 +586,8 @@
         "type": "vowel",
         "ipa": "aj",
         "example": "ไป (pai)",
-        "example_english": "go"
+        "example_english": "go",
+        "is_short": false
     },
     {
         "character": "เ-ะ",
@@ -581,7 +596,8 @@
         "type": "vowel",
         "ipa": "e",
         "example": "เด็ก (dek)",
-        "example_english": "child"
+        "example_english": "child",
+        "is_short": true
     },
     {
         "character": "แ-ะ",
@@ -590,7 +606,8 @@
         "type": "vowel",
         "ipa": "ɛ",
         "example": "แอ๊ะ (ae)",
-        "example_english": "hey"
+        "example_english": "hey",
+        "is_short": true
     },
     {
         "character": "เ-็",
@@ -599,7 +616,8 @@
         "type": "vowel",
         "ipa": "e",
         "example": "เด็ก (dek)",
-        "example_english": "child"
+        "example_english": "child",
+        "is_short": true
     },
     {
         "character": "โ-ะ",
@@ -608,7 +626,8 @@
         "type": "vowel",
         "ipa": "o",
         "example": "โต๊ะ (to)",
-        "example_english": "table"
+        "example_english": "table",
+        "is_short": true
     },
     {
         "character": "เ-อ",
@@ -617,7 +636,8 @@
         "type": "vowel",
         "ipa": "ɤː",
         "example": "เธอ (thoe)",
-        "example_english": "you"
+        "example_english": "you",
+        "is_short": false
     },
     {
         "character": "เ-ิ",
@@ -626,7 +646,8 @@
         "type": "vowel",
         "ipa": "ɤ",
         "example": "เกิบ (koep)",
-        "example_english": "slipper"
+        "example_english": "slipper",
+        "is_short": true
     },
     {
         "character": "เ-า",
@@ -635,7 +656,8 @@
         "type": "vowel",
         "ipa": "aw",
         "example": "เกา (kao)",
-        "example_english": "scratch"
+        "example_english": "scratch",
+        "is_short": true
     },
     {
         "character": "ฤ",
@@ -644,7 +666,8 @@
         "type": "vowel",
         "ipa": "rɯ",
         "example": "ฤาษี (rue-si)",
-        "example_english": "hermit"
+        "example_english": "hermit",
+        "is_short": true
     },
     {
         "character": "ฤๅ",
@@ -653,7 +676,8 @@
         "type": "vowel",
         "ipa": "rɯː",
         "example": "ฤๅษี (rue-si)",
-        "example_english": "hermit"
+        "example_english": "hermit",
+        "is_short": false
     },
     {
         "character": "ฦ",
@@ -662,7 +686,8 @@
         "type": "vowel",
         "ipa": "lɯ",
         "example": "หลึ่ง (lueng)",
-        "example_english": "float"
+        "example_english": "float",
+        "is_short": true
     },
     {
         "character": "ฦๅ",
@@ -671,7 +696,8 @@
         "type": "vowel",
         "ipa": "lɯː",
         "example": "หลึ่ง (lueng)",
-        "example_english": "float"
+        "example_english": "float",
+        "is_short": false
     },
     {
         "character": "่",

@@ -1,8 +1,9 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import ClassView from '../views/ClassView.vue'
-import DeadLiveView from '../views/DeadLiveView.vue'
-import AlphabetFlashCardView from '../views/AlphabetFlashCardView.vue'
+import { createRouter, createWebHashHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import ClassView from '../views/ClassView.vue';
+import DeadLiveView from '../views/DeadLiveView.vue';
+import ShortLongView from '@/views/ShortLongView.vue';
+import AlphabetFlashCardView from '../views/AlphabetFlashCardView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -21,6 +22,11 @@ const router = createRouter({
       path: '/dead-live',
       name: 'dead-live',
       component: DeadLiveView
+    },
+    {
+      path: '/short-long',
+      name: 'short-long',
+      component: ShortLongView
     },
     {
       path: '/alphabet-flashcard',

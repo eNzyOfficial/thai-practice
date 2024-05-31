@@ -9,7 +9,8 @@
     <van-space direction="vertical" fill>
       <van-button type="primary" block to="alphabet-flashcard">Character Flashcards</van-button>
       <van-button type="primary" block to="classes">Character Classes</van-button>
-      <van-button type="primary" block to="dead-live">Dead or Live</van-button>
+      <van-button type="primary" block to="dead-live">Dead or Live Consonant</van-button>
+      <van-button type="primary" block to="short-long">Short or Long Vowel</van-button>
     </van-space>
   </main>
 </template>
