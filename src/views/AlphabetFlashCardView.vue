@@ -125,11 +125,19 @@ function setCharacter(type, value) {
         <div class="flex flex-col flex-grow p-4">
             <div class="flex flex-col text-center flex-grow justify-center">
                 <p v-if="!gameFinished" class="text-8xl">{{ currentCharacter.character }}</p>
-                <span v-if="!gameFinished && !cheat" class="text-sm text-slate-300 cursor-default" @click="cheat = true">Show information</span>
+                <span v-if="!gameFinished && !cheat" class="text-sm text-slate-300 cursor-default"
+                    @click="cheat = true">Show
+                    information</span>
                 <p v-if="!gameFinished && cheat" class="text-sm cursor-default" @click="cheat = false">
                     Name: {{ currentCharacter.name }}<br>
                     Type: {{ currentCharacter.type }}<br>
-                    Example: {{ currentCharacter.example }} ({{ currentCharacter.example_english }})
+                    Example: {{ currentCharacter.example }} ({{ currentCharacter.example_english }})<br>
+                    <span v-if="![undefined, 'null'].includes(currentCharacter.is_live)">Dead/Alive: {{
+            currentCharacter.is_live
+                ? 'Alive' : 'Dead' }}<br></span>
+                    <span v-if="['mid', 'high', 'low'].includes(currentCharacter.class)">Class: {{
+            currentCharacter.class
+        }}<br></span>
                 </p>
             </div>
 
