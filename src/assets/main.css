@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,5 +7,6 @@
 html,
 body,
 #app {
+    font-family: 'Sarabun', sans-serif;
     @apply min-h-screen;
 }
