@@ -8,9 +8,7 @@ const router = useRouter();
 
 const backButton = () => router.push({ name: 'home' });
 
-const vowels = ref(true);
-const consonants = ref(true);
-const numbers = ref(true);
+const gameMode = ref('consonants');
 
 const cheat = ref(false);
 const infinite = ref(false);
@@ -37,35 +35,36 @@ function getNextCharacter() {
 }
 
 function resetGame() {
-    alphabet.value = shuffle.value
-        ? alphabetStore.classCharacters.slice().sort(() => Math.random() - 0.5)
-        : alphabetStore.classCharacters;
+    switch (gameMode.value) {
+        case 'consonants':
+            alphabet.value = shuffle.value
+                ? alphabetStore.consonants.slice().sort(() => Math.random() - 0.5)
+                : alphabetStore.consonants;
+            break;
+        case 'vowels':
+            alphabet.value = shuffle.value
+                ? alphabetStore.vowels.slice().sort(() => Math.random() - 0.5)
+                : alphabetStore.vowels;
+            break;
+        case 'numbers':
+            alphabet.value = shuffle.value
+                ? alphabetStore.numbers.slice().sort(() => Math.random() - 0.5)
+                : alphabetStore.numbers;
+            break;
+        case 'marks':
+            alphabet.value = shuffle.value
+                ? alphabetStore.marks.slice().sort(() => Math.random() - 0.5)
+                : alphabetStore.marks;
+            break;
+    }
 
     currentIndex.value = 0;
-
-    let characters = []
-
-    if (vowels.value) {
-        characters = characters.concat(alphabetStore.vowels)
-    }
-
-    if (consonants.value) {
-        characters = characters.concat(alphabetStore.consonants)
-    }
-
-    if (numbers.value) {
-        characters = characters.concat(alphabetStore.numbers)
-    }
-
-    alphabet.value = shuffle.value
-        ? characters.slice().sort(() => Math.random() - 0.5)
-        : characters;
 
     gameFinished.value = false;
     cheat.value = false;
 }
 
-function changeGameMode(value) {
+function infiniteMode(value) {
     infinite.value = value
     resetGame();
 }
@@ -76,23 +75,8 @@ function shuffleCharacters(value) {
     resetGame();
 }
 
-function setCharacter(type, value) {
-    if (!value && [vowels.value, consonants.value, numbers.value].filter(v => v).length < 2) {
-        return;
-    }
-
-    switch (type) {
-        case 'vowels':
-            vowels.value = value;
-            break;
-        case 'consonants':
-            consonants.value = value;
-            break;
-        case 'numbers':
-            numbers.value = value;
-            break;
-    }
-
+function changeGameMode(value) {
+    gameMode.value = value;
     resetGame();
 }
 </script>
@@ -102,24 +86,25 @@ function setCharacter(type, value) {
         <van-nav-bar title="Character Flash Cards" left-text="Back" left-arrow @click-left="backButton" />
 
 
+        <van-cell center title="Characters">
+            <template #right-icon>
+                <van-radio-group v-model="gameMode" direction="horizontal" @update:model-value="changeGameMode" class="text-xs md:text-lg">
+                    <van-radio name="consonants" icon-size="1rem">Consonants</van-radio>
+                    <van-radio name="vowels" icon-size="1rem">Vowels</van-radio>
+                    <van-radio name="numbers" icon-size="1rem">Numbers</van-radio>
+                    <van-radio name="marks" icon-size="1rem">Marks</van-radio>
+                </van-radio-group>
+            </template>
+        </van-cell>
         <van-cell center title="Infinite Mode">
             <template #right-icon>
-                <van-switch :model-value="infinite" @update:model-value="changeGameMode" />
+                <van-switch :model-value="infinite" @update:model-value="infiniteMode" />
             </template>
         </van-cell>
         <van-cell center title="Shuffle">
             <template #right-icon>
                 <van-switch :model-value="shuffle" @update:model-value="shuffleCharacters" />
             </template>
-        </van-cell>
-        <van-cell center title="Vowels">
-            <van-switch :model-value="vowels" @update:model-value="value => setCharacter('vowels', value)" />
-        </van-cell>
-        <van-cell center title="Consonants">
-            <van-switch :model-value="consonants" @update:model-value="value => setCharacter('consonants', value)" />
-        </van-cell>
-        <van-cell center title="Numbers">
-            <van-switch :model-value="numbers" @update:model-value="value => setCharacter('numbers', value)" />
         </van-cell>
 
         <div class="flex flex-col flex-grow p-4">

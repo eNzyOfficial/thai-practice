@@ -89,7 +89,7 @@ function shuffleCharacters(value) {
 
 <template>
     <div class="min-h-screen flex flex-col">
-        <van-nav-bar title="Character Classes" left-text="Back" left-arrow @click-left="backButton" />
+        <van-nav-bar title="Consonant Classes" left-text="Back" left-arrow @click-left="backButton" />
 
 
         <van-cell center title="Infinite Mode">

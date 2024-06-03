@@ -7,7 +7,8 @@
         "is_live": false,
         "ipa": "k",
         "example": "ไก่ (gai)",
-        "example_english": "chicken"
+        "example_english": "chicken",
+        "audio": "consonants/ก.mp3"
     },
     {
         "character": "ข",
@@ -17,7 +18,8 @@
         "is_live": false,
         "ipa": "kʰ",
         "example": "ไข่ (kai)",
-        "example_english": "egg"
+        "example_english": "egg",
+        "audio": "consonants/ข.mp3"
     },
     {
         "character": "ฃ",
@@ -27,7 +29,8 @@
         "is_live": false,
         "ipa": "kʰ",
         "example": "ฃวด (kuat)",
-        "example_english": "bottle"
+        "example_english": "bottle",
+        "audio": "consonants/ฃ.mp3"
     },
     {
         "character": "ค",
@@ -37,7 +40,8 @@
         "is_live": false,
         "ipa": "kʰ",
         "example": "ควาย (kwaai)",
-        "example_english": "water buffalo"
+        "example_english": "water buffalo",
+        "audio": "consonants/ค.mp3"
     },
     {
         "character": "ฅ",
@@ -47,7 +51,8 @@
         "is_live": false,
         "ipa": "kʰ",
         "example": "คน (kon)",
-        "example_english": "person"
+        "example_english": "person",
+        "audio": "consonants/ฅ.mp3"
     },
     {
         "character": "ฆ",
@@ -57,7 +62,8 @@
         "is_live": false,
         "ipa": "kʰ",
         "example": "ระฆัง (ra-kang)",
-        "example_english": "bell"
+        "example_english": "bell",
+        "audio": "consonants/ฆ.mp3"
     },
     {
         "character": "ง",
@@ -67,7 +73,8 @@
         "is_live": true,
         "ipa": "ŋ",
         "example": "งู (ngoo)",
-        "example_english": "snake"
+        "example_english": "snake",
+        "audio": "consonants/ง.mp3"
     },
     {
         "character": "จ",
@@ -77,7 +84,8 @@
         "is_live": false,
         "ipa": "t͡ɕ",
         "example": "จาน (jaan)",
-        "example_english": "plate"
+        "example_english": "plate",
+        "audio": "consonants/จ.mp3"
     },
     {
         "character": "ฉ",
@@ -87,7 +95,8 @@
         "is_live": false,
         "ipa": "t͡ɕʰ",
         "example": "ฉิ่ง (ching)",
-        "example_english": "cymbals"
+        "example_english": "cymbals",
+        "audio": "consonants/ฉ.mp3"
     },
     {
         "character": "ช",
@@ -97,7 +106,8 @@
         "is_live": false,
         "ipa": "t͡ɕʰ",
         "example": "ช้าง (chaang)",
-        "example_english": "elephant"
+        "example_english": "elephant",
+        "audio": "consonants/ช.mp3"
     },
     {
         "character": "ซ",
@@ -107,7 +117,8 @@
         "is_live": false,
         "ipa": "s",
         "example": "โซ่ (so)",
-        "example_english": "chain"
+        "example_english": "chain",
+        "audio": "consonants/ซ.mp3"
     },
     {
         "character": "ฌ",
@@ -117,7 +128,8 @@
         "is_live": false,
         "ipa": "t͡ɕʰ",
         "example": "เฌอ (cheuh)",
-        "example_english": "tree"
+        "example_english": "tree",
+        "audio": "consonants/ฌ.mp3"
     },
     {
         "character": "ญ",
@@ -127,7 +139,8 @@
         "is_live": true,
         "ipa": "j",
         "example": "หญิง (pooying)",
-        "example_english": "woman"
+        "example_english": "woman",
+        "audio": "consonants/ญ.mp3"
     },
     {
         "character": "ฎ",
@@ -137,7 +150,8 @@
         "is_live": false,
         "ipa": "d",
         "example": "ชฎา (cha-da)",
-        "example_english": "appeal"
+        "example_english": "appeal",
+        "audio": "consonants/ฎ.mp3"
     },
     {
         "character": "ฏ",
@@ -147,7 +161,8 @@
         "is_live": false,
         "ipa": "t",
         "example": "ปฏัก (bpa-dtak)",
-        "example_english": "spear"
+        "example_english": "spear",
+        "audio": "consonants/ฏ.mp3"
     },
     {
         "character": "ฐ",
@@ -157,7 +172,8 @@
         "is_live": false,
         "ipa": "tʰ",
         "example": "ฐาน (than)",
-        "example_english": "base"
+        "example_english": "base",
+        "audio": "consonants/ฐ.mp3"
     },
     {
         "character": "ฑ",
@@ -167,7 +183,8 @@
         "is_live": false,
         "ipa": "tʰ",
         "example": "มณโฑ (monto)",
-        "example_english": "Montho (a character from the Ramayana)"
+        "example_english": "Montho (a character from the Ramayana)",
+        "audio": "consonants/ฑ.mp3"
     },
     {
         "character": "ฒ",
@@ -177,7 +194,8 @@
         "is_live": false,
         "ipa": "tʰ",
         "example": "ผู้เฒ่า (pootao)",
-        "example_english": "elder"
+        "example_english": "elder",
+        "audio": "consonants/ฒ.mp3"
     },
     {
         "character": "ณ",
@@ -187,7 +205,8 @@
         "is_live": true,
         "ipa": "n",
         "example": "เณร (nen)",
-        "example_english": "novice monk"
+        "example_english": "novice monk",
+        "audio": "consonants/ณ.mp3"
     },
     {
         "character": "ด",
@@ -197,7 +216,8 @@
         "is_live": false,
         "ipa": "d",
         "example": "เด็ก (dek)",
-        "example_english": "child"
+        "example_english": "child",
+        "audio": "consonants/ด.mp3"
     },
     {
         "character": "ต",
@@ -207,7 +227,8 @@
         "is_live": false,
         "ipa": "t",
         "example": "เต่า (dtao)",
-        "example_english": "turtle"
+        "example_english": "turtle",
+        "audio": "consonants/ต.mp3"
     },
     {
         "character": "ถ",
@@ -217,7 +238,8 @@
         "is_live": false,
         "ipa": "tʰ",
         "example": "ถุง (toong)",
-        "example_english": "bag"
+        "example_english": "bag",
+        "audio": "consonants/ถ.mp3"
     },
     {
         "character": "ท",
@@ -227,7 +249,8 @@
         "is_live": false,
         "ipa": "tʰ",
         "example": "ทหาร (tahaan)",
-        "example_english": "soldier"
+        "example_english": "soldier",
+        "audio": "consonants/ท.mp3"
     },
     {
         "character": "ธ",
@@ -237,7 +260,8 @@
         "is_live": false,
         "ipa": "tʰ",
         "example": "ธง (tong)",
-        "example_english": "flag"
+        "example_english": "flag",
+        "audio": "consonants/ธ.mp3"
     },
     {
         "character": "น",
@@ -247,7 +271,8 @@
         "is_live": true,
         "ipa": "n",
         "example": "หนู (noo)",
-        "example_english": "mouse"
+        "example_english": "mouse",
+        "audio": "consonants/น.mp3"
     },
     {
         "character": "บ",
@@ -257,7 +282,8 @@
         "is_live": false,
         "ipa": "b",
         "example": "ใบไม้ (baimai)",
-        "example_english": "leaf"
+        "example_english": "leaf",
+        "audio": "consonants/บ.mp3"
     },
     {
         "character": "ป",
@@ -267,7 +293,8 @@
         "is_live": false,
         "ipa": "p",
         "example": "ปลา (bpla)",
-        "example_english": "fish"
+        "example_english": "fish",
+        "audio": "consonants/ป.mp3"
     },
     {
         "character": "ผ",
@@ -277,7 +304,8 @@
         "is_live": false,
         "ipa": "pʰ",
         "example": "ผึ้ง (peung)",
-        "example_english": "bee"
+        "example_english": "bee",
+        "audio": "consonants/ผ.mp3"
     },
     {
         "character": "ฝ",
@@ -287,7 +315,8 @@
         "is_live": false,
         "ipa": "f",
         "example": "ฝา (faa)",
-        "example_english": "lid/cover"
+        "example_english": "lid/cover",
+        "audio": "consonants/ฝ.mp3"
     },
     {
         "character": "พ",
@@ -297,7 +326,8 @@
         "is_live": false,
         "ipa": "pʰ",
         "example": "พาน (phan)",
-        "example_english": "tray"
+        "example_english": "tray",
+        "audio": "consonants/พ.mp3"
     },
     {
         "character": "ฟ",
@@ -307,7 +337,8 @@
         "is_live": false,
         "ipa": "f",
         "example": "ฟัน (fan)",
-        "example_english": "tooth"
+        "example_english": "tooth",
+        "audio": "consonants/ฟ.mp3"
     },
     {
         "character": "ภ",
@@ -317,7 +348,8 @@
         "is_live": false,
         "ipa": "pʰ",
         "example": "สำเภา (sampao)",
-        "example_english": "junk (boat)"
+        "example_english": "junk (boat)",
+        "audio": "consonants/ภ.mp3"
     },
     {
         "character": "ม",
@@ -327,7 +359,8 @@
         "is_live": true,
         "ipa": "m",
         "example": "ม้า (ma)",
-        "example_english": "horse"
+        "example_english": "horse",
+        "audio": "consonants/ม.mp3"
     },
     {
         "character": "ย",
@@ -337,7 +370,8 @@
         "is_live": true,
         "ipa": "j",
         "example": "ยักษ์ (yak)",
-        "example_english": "giant"
+        "example_english": "giant",
+        "audio": "consonants/ย.mp3"
     },
     {
         "character": "ร",
@@ -347,7 +381,8 @@
         "is_live": true,
         "ipa": "r",
         "example": "เรือ (reua)",
-        "example_english": "boat"
+        "example_english": "boat",
+        "audio": "consonants/ร.mp3"
     },
     {
         "character": "ล",
@@ -357,7 +392,8 @@
         "is_live": true,
         "ipa": "l",
         "example": "ลิง (ling)",
-        "example_english": "monkey"
+        "example_english": "monkey",
+        "audio": "consonants/ล.mp3"
     },
     {
         "character": "ว",
@@ -367,7 +403,8 @@
         "is_live": true,
         "ipa": "w",
         "example": "แหวน (waen)",
-        "example_english": "ring"
+        "example_english": "ring",
+        "audio": "consonants/ว.mp3"
     },
     {
         "character": "ศ",
@@ -377,7 +414,8 @@
         "is_live": false,
         "ipa": "s",
         "example": "ศาลา (sala)",
-        "example_english": "pavilion"
+        "example_english": "pavilion",
+        "audio": "consonants/ศ.mp3"
     },
     {
         "character": "ษ",
@@ -387,7 +425,8 @@
         "is_live": false,
         "ipa": "s",
         "example": "ฤาษี (rue-see)",
-        "example_english": "hermit"
+        "example_english": "hermit",
+        "audio": "consonants/ษ.mp3"
     },
     {
         "character": "ส",
@@ -397,7 +436,8 @@
         "is_live": false,
         "ipa": "s",
         "example": "เสือ (seua)",
-        "example_english": "tiger"
+        "example_english": "tiger",
+        "audio": "consonants/ส.mp3"
     },
     {
         "character": "ห",
@@ -407,7 +447,8 @@
         "is_live": false,
         "ipa": "h",
         "example": "หีบ (hip)",
-        "example_english": "chest"
+        "example_english": "chest",
+        "audio": "consonants/ห.mp3"
     },
     {
         "character": "ฬ",
@@ -417,7 +458,8 @@
         "is_live": true,
         "ipa": "l",
         "example": "จุฬา (joolaa)",
-        "example_english": "kite"
+        "example_english": "kite",
+        "audio": "consonants/ฬ.mp3"
     },
     {
         "character": "อ",
@@ -427,7 +469,8 @@
         "is_live": false,
         "ipa": "ʔ",
         "example": "อ่าง (aang)",
-        "example_english": "basin"
+        "example_english": "basin",
+        "audio": "consonants/อ.mp3"
     },
     {
         "character": "ฮ",
@@ -437,455 +480,452 @@
         "is_live": false,
         "ipa": "h",
         "example": "นกฮูก (nok-hook)",
-        "example_english": "owl"
+        "example_english": "owl",
+        "audio": "consonants/ฮ.mp3"
     },
     {
-        "character": "ะ",
-        "name": "sara ah",
-        "class": "none",
+        "character": "อะ",
+        "name": "sara a",
         "type": "vowel",
         "ipa": "a",
-        "example": "มะ (ma)",
-        "example_english": "come",
-        "is_short": true
+        "example": "ปะ (pa)",
+        "example_english": "to meet",
+        "is_short": true,
+        "audio": "vowels/sara-a.mp3"
     },
     {
-        "character": "ั",
-        "name": "mai han-akat",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "a",
-        "example": "มัน (man)",
-        "example_english": "it",
-        "is_short": true
-    },
-    {
-        "character": "า",
+        "character": "อา",
         "name": "sara aa",
-        "class": "none",
         "type": "vowel",
         "ipa": "aː",
-        "example": "มา (ma)",
+        "example": "มา (maa)",
         "example_english": "come",
-        "is_short": false
+        "is_short": false,
+        "audio": "vowels/sara-aa.mp3"
     },
     {
-        "character": "ำ",
+        "character": "อิ",
+        "name": "sara i",
+        "type": "vowel",
+        "ipa": "i",
+        "example": "ปิ (pi)",
+        "example_english": "to close",
+        "is_short": true,
+        "audio": "vowels/sara-i.mp3"
+    },
+    {
+        "character": "อี",
+        "name": "sara ii",
+        "type": "vowel",
+        "ipa": "iː",
+        "example": "มี (mii)",
+        "example_english": "have",
+        "is_short": false,
+        "audio": "vowels/sara-ii.mp3"
+    },
+    {
+        "character": "อุ",
+        "name": "sara u",
+        "type": "vowel",
+        "ipa": "u",
+        "example": "ปุ (pu)",
+        "example_english": "fertilizer",
+        "is_short": true,
+        "audio": "vowels/sara-u.mp3"
+    },
+    {
+        "character": "อู",
+        "name": "sara uu",
+        "type": "vowel",
+        "ipa": "uː",
+        "example": "ภู (phuu)",
+        "example_english": "mountain",
+        "is_short": false,
+        "audio": "vowels/sara-uu.mp3"
+    },
+    {
+        "character": "อึ",
+        "name": "sara ue",
+        "type": "vowel",
+        "ipa": "ɯ",
+        "example": "ดึ (due)",
+        "example_english": "to withdraw",
+        "is_short": true,
+        "audio": "vowels/sara-ue.mp3"
+    },
+    {
+        "character": "อื",
+        "name": "sara uee",
+        "type": "vowel",
+        "ipa": "ɯː",
+        "example": "ลื (lue)",
+        "example_english": "to forget",
+        "is_short": false,
+        "audio": "vowels/sara-uee.mp3"
+    },
+    {
+        "character": "เอะ",
+        "name": "sara e",
+        "type": "vowel",
+        "ipa": "e",
+        "example": "เปะ (pe)",
+        "example_english": "spot",
+        "is_short": true,
+        "audio": "vowels/sara-e.mp3"
+    },
+    {
+        "character": "เอ",
+        "name": "sara ee",
+        "type": "vowel",
+        "ipa": "eː",
+        "example": "เล (lee)",
+        "example_english": "sail",
+        "is_short": false,
+        "audio": "vowels/sara-ee.mp3"
+    },
+    {
+        "character": "แอะ",
+        "name": "sara ae",
+        "type": "vowel",
+        "ipa": "ɛ",
+        "example": "แปะ (pae)",
+        "example_english": "to stick",
+        "is_short": true,
+        "audio": "vowels/sara-ae.mp3"
+    },
+    {
+        "character": "แอ",
+        "name": "sara aee",
+        "type": "vowel",
+        "ipa": "ɛː",
+        "example": "แล (lae)",
+        "example_english": "to look",
+        "is_short": false,
+        "audio": "vowels/sara-ae.mp3"
+    },
+    {
+        "character": "โอะ",
+        "name": "sara o",
+        "type": "vowel",
+        "ipa": "o",
+        "example": "โตะ (to)",
+        "example_english": "table",
+        "is_short": true,
+        "audio": "vowels/sara-o.mp3"
+    },
+    {
+        "character": "โอ",
+        "name": "sara oo",
+        "type": "vowel",
+        "ipa": "oː",
+        "example": "โต (too)",
+        "example_english": "grow",
+        "is_short": false,
+        "audio": "vowels/sara-oo.mp3"
+    },
+    {
+        "character": "เอาะ",
+        "name": "sara aw",
+        "type": "vowel",
+        "ipa": "ɔ",
+        "example": "ดอก (dɔːk)",
+        "example_english": "flower",
+        "is_short": true,
+        "audio": "vowels/sara-aw.mp3"
+    },
+    {
+        "character": "ออ",
+        "name": "sara aaw",
+        "type": "vowel",
+        "ipa": "ɔː",
+        "example": "พอ (phɔɔ)",
+        "example_english": "enough",
+        "is_short": false,
+        "audio": "vowels/sara-aaw.mp3"
+    },
+    {
+        "character": "เออะ",
+        "name": "sara oe",
+        "type": "vowel",
+        "ipa": "ɤ",
+        "example": "เงอะ (nge)",
+        "example_english": "awkward",
+        "is_short": true,
+        "audio": "vowels/sara-oe.mp3"
+    },
+    {
+        "character": "เออ",
+        "name": "sara oee",
+        "type": "vowel",
+        "ipa": "ɤː",
+        "example": "เธอ (thee)",
+        "example_english": "you (female)",
+        "is_short": false,
+        "audio": "vowels/sara-oee.mp3"
+    },
+    {
+        "character": "เอียะ",
+        "name": "sara ia",
+        "type": "vowel",
+        "ipa": "ia",
+        "example": "เตี้ย (tia)",
+        "example_english": "short",
+        "is_short": true,
+        "audio": "vowels/sara-ia.mp3"
+    },
+    {
+        "character": "เอีย",
+        "name": "sara iia",
+        "type": "vowel",
+        "ipa": "iaː",
+        "example": "เขียน (khian)",
+        "example_english": "to write",
+        "is_short": false,
+        "audio": "vowels/sara-iia.mp3"
+    },
+    {
+        "character": "เอือะ",
+        "name": "sara uea",
+        "type": "vowel",
+        "ipa": "ɯa",
+        "example": "เบื่อะ (buea)",
+        "example_english": "tired",
+        "is_short": true,
+        "audio": "vowels/sara-uea.mp3"
+    },
+    {
+        "character": "เอือ",
+        "name": "sara ueaa",
+        "type": "vowel",
+        "ipa": "ɯaː",
+        "example": "เบื่อ (buea)",
+        "example_english": "bored",
+        "is_short": false,
+        "audio": "vowels/sara-ueaa.mp3"
+    },
+    {
+        "character": "อัวะ",
+        "name": "sara ua",
+        "type": "vowel",
+        "ipa": "ua",
+        "example": "กลัวะ (glua)",
+        "example_english": "to fear",
+        "is_short": true,
+        "audio": "vowels/sara-ua.mp3"
+    },
+    {
+        "character": "อัว",
+        "name": "sara uaa",
+        "type": "vowel",
+        "ipa": "uaː",
+        "example": "กลัว (glua)",
+        "example_english": "scared",
+        "is_short": false,
+        "audio": "vowels/sara-uaa.mp3"
+    },
+    {
+        "character": "อำ",
         "name": "sara am",
-        "class": "none",
         "type": "vowel",
         "ipa": "am",
         "example": "นำ (nam)",
         "example_english": "lead",
-        "is_short": true
+        "is_short": true,
+        "audio": "vowels/sara-am.mp3"
     },
     {
-        "character": "ิ",
-        "name": "sara i",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "i",
-        "example": "กิน (kin)",
-        "example_english": "eat",
-        "is_short": true
-    },
-    {
-        "character": "ี",
-        "name": "sara ii",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "iː",
-        "example": "มี (mi)",
-        "example_english": "have",
-        "is_short": false
-    },
-    {
-        "character": "ึ",
-        "name": "sara ue",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "ɯ",
-        "example": "ตึก (tuek)",
-        "example_english": "building",
-        "is_short": true
-    },
-    {
-        "character": "ื",
-        "name": "sara uee",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "ɯː",
-        "example": "มืด (muet)",
-        "example_english": "dark",
-        "is_short": false
-    },
-    {
-        "character": "ุ",
-        "name": "sara u",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "u",
-        "example": "จุ (chu)",
-        "example_english": "to hold",
-        "is_short": true
-    },
-    {
-        "character": "ู",
-        "name": "sara uu",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "uː",
-        "example": "ดู (du)",
-        "example_english": "see",
-        "is_short": false
-    },
-    {
-        "character": "เ",
-        "name": "sara e",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "e",
-        "example": "เป็น (pen)",
-        "example_english": "be",
-        "is_short": false
-    },
-    {
-        "character": "แ",
-        "name": "sara ae",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "ɛ",
-        "example": "แปลง (plaeng)",
-        "example_english": "transform",
-        "is_short": false
-    },
-    {
-        "character": "โ",
-        "name": "sara o",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "o",
-        "example": "โกรธ (krot)",
-        "example_english": "angry",
-        "is_short": false
-    },
-    {
-        "character": "ใ",
+        "character": "ใอ",
         "name": "sara ai mai muan",
-        "class": "none",
         "type": "vowel",
-        "ipa": "aj",
-        "example": "ใน (nai)",
-        "example_english": "in",
-        "is_short": false
+        "ipa": "ai",
+        "example": "ใส (sai)",
+        "example_english": "clear",
+        "is_short": false,
+        "audio": "vowels/sara-ai-mai-muan.mp3"
     },
     {
-        "character": "ไ",
+        "character": "ไอ",
         "name": "sara ai mai malai",
-        "class": "none",
         "type": "vowel",
-        "ipa": "aj",
-        "example": "ไป (pai)",
-        "example_english": "go",
-        "is_short": false
+        "ipa": "ai",
+        "example": "ไก่ (kai)",
+        "example_english": "chicken",
+        "is_short": false,
+        "audio": "vowels/sara-ai-mai-malai.mp3"
     },
     {
-        "character": "เ-ะ",
-        "name": "sara e short",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "e",
-        "example": "เด็ก (dek)",
-        "example_english": "child",
-        "is_short": true
-    },
-    {
-        "character": "แ-ะ",
-        "name": "sara ae short",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "ɛ",
-        "example": "แอ๊ะ (ae)",
-        "example_english": "hey",
-        "is_short": true
-    },
-    {
-        "character": "เ-็",
-        "name": "sara e am",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "e",
-        "example": "เด็ก (dek)",
-        "example_english": "child",
-        "is_short": true
-    },
-    {
-        "character": "โ-ะ",
-        "name": "sara o short",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "o",
-        "example": "โต๊ะ (to)",
-        "example_english": "table",
-        "is_short": true
-    },
-    {
-        "character": "เ-อ",
-        "name": "sara oe",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "ɤː",
-        "example": "เธอ (thoe)",
-        "example_english": "you",
-        "is_short": false
-    },
-    {
-        "character": "เ-ิ",
-        "name": "sara oe short",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "ɤ",
-        "example": "เกิบ (koep)",
-        "example_english": "slipper",
-        "is_short": true
-    },
-    {
-        "character": "เ-า",
+        "character": "เอา",
         "name": "sara ao",
-        "class": "none",
         "type": "vowel",
         "ipa": "aw",
-        "example": "เกา (kao)",
-        "example_english": "scratch",
-        "is_short": true
+        "example": "เขา (khao)",
+        "example_english": "he",
+        "is_short": false,
+        "audio": "vowels/sara-ao.mp3"
     },
     {
-        "character": "ฤ",
-        "name": "sara rue",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "rɯ",
-        "example": "ฤาษี (rue-si)",
-        "example_english": "hermit",
-        "is_short": true
-    },
-    {
-        "character": "ฤๅ",
-        "name": "sara ruee",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "rɯː",
-        "example": "ฤๅษี (rue-si)",
-        "example_english": "hermit",
-        "is_short": false
-    },
-    {
-        "character": "ฦ",
-        "name": "sara lu",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "lɯ",
-        "example": "หลึ่ง (lueng)",
-        "example_english": "float",
-        "is_short": true
-    },
-    {
-        "character": "ฦๅ",
-        "name": "sara luu",
-        "class": "none",
-        "type": "vowel",
-        "ipa": "lɯː",
-        "example": "หลึ่ง (lueng)",
-        "example_english": "float",
-        "is_short": false
-    },
-    {
-        "character": "่",
-        "name": "mai ek",
-        "class": "none",
-        "type": "tone",
+        "character": "_่",
+        "name": "mai ayk",
+        "type": "mark",
         "ipa": "low",
         "example": "ก่ (ka)",
-        "example_english": "chicken"
+        "example_english": "chicken",
+        "audio": "marks/mai-ayk.mp3"
     },
     {
-        "character": "้",
-        "name": "mai tho",
-        "class": "none",
-        "type": "tone",
+        "character": "_้",
+        "name": "mai toh",
+        "type": "mark",
         "ipa": "falling",
         "example": "ก้ (ka)",
-        "example_english": "chicken"
+        "example_english": "chicken",
+        "audio": "marks/mai-toh.mp3"
     },
     {
-        "character": "๊",
-        "name": "mai tri",
-        "class": "none",
-        "type": "tone",
+        "character": "_๊",
+        "name": "mai dtrii",
+        "type": "mark",
         "ipa": "high",
         "example": "ก๊ (ka)",
-        "example_english": "chicken"
+        "example_english": "chicken",
+        "audio": "marks/mai-dtrii.mp3"
     },
     {
-        "character": "๋",
-        "name": "mai chattawa",
-        "class": "none",
-        "type": "tone",
+        "character": "_๋",
+        "name": "mai jat dta waa",
+        "type": "mark",
         "ipa": "rising",
         "example": "ก๋ (ka)",
-        "example_english": "chicken"
-    },
-    {
-        "character": "ฯ",
-        "name": "paiyan noi",
-        "class": "none",
-        "type": "punctuation",
-        "ipa": "abbreviation",
-        "example": "ฯพณฯ (phra-phon-ya)",
-        "example_english": "Your Excellency"
+        "example_english": "chicken",
+        "audio": "marks/mai-jat-dta-waa.mp3"
     },
     {
         "character": "๐",
-        "name": "sun",
-        "class": "none",
+        "name": "soon",
         "type": "digit",
-        "ipa": "0",
-        "example": "ศูนย์ (sun)",
-        "example_english": "zero"
+        "example": "ศูนย์ (soon)",
+        "example_english": "zero",
+        "audio": "numbers/0.mp3"
     },
     {
         "character": "๑",
-        "name": "nueng",
-        "class": "none",
+        "name": "neung",
         "type": "digit",
-        "ipa": "1",
-        "example": "หนึ่ง (nueng)",
-        "example_english": "one"
+        "example": "หนึ่ง (neung)",
+        "example_english": "one",
+        "audio": "numbers/1.mp3"
     },
     {
         "character": "๒",
         "name": "song",
-        "class": "none",
         "type": "digit",
         "ipa": "2",
         "example": "สอง (song)",
-        "example_english": "two"
+        "example_english": "two",
+        "audio": "numbers/2.mp3"
     },
     {
         "character": "๓",
         "name": "sam",
-        "class": "none",
         "type": "digit",
-        "ipa": "3",
         "example": "สาม (sam)",
-        "example_english": "three"
+        "example_english": "three",
+        "audio": "numbers/3.mp3"
     },
     {
         "character": "๔",
         "name": "si",
-        "class": "none",
         "type": "digit",
-        "ipa": "4",
         "example": "สี่ (si)",
-        "example_english": "four"
+        "example_english": "four",
+        "audio": "numbers/4.mp3"
     },
     {
         "character": "๕",
-        "name": "ha",
-        "class": "none",
+        "name": "haa",
         "type": "digit",
-        "ipa": "5",
-        "example": "ห้า (ha)",
-        "example_english": "five"
+        "example": "ห้า (haa)",
+        "example_english": "five",
+        "audio": "numbers/5.mp3"
     },
     {
         "character": "๖",
         "name": "hok",
-        "class": "none",
         "type": "digit",
-        "ipa": "6",
         "example": "หก (hok)",
-        "example_english": "six"
+        "example_english": "six",
+        "audio": "numbers/6.mp3"
     },
     {
         "character": "๗",
-        "name": "chet",
-        "class": "none",
+        "name": "jet",
         "type": "digit",
-        "ipa": "7",
-        "example": "เจ็ด (chet)",
-        "example_english": "seven"
+        "example": "เจ็ด (jet)",
+        "example_english": "seven",
+        "audio": "numbers/7.mp3"
     },
     {
         "character": "๘",
-        "name": "paet",
-        "class": "none",
+        "name": "bpaet",
         "type": "digit",
-        "ipa": "8",
-        "example": "แปด (paet)",
-        "example_english": "eight"
+        "example": "แปด (bpaet)",
+        "example_english": "eight",
+        "audio": "numbers/8.mp3"
     },
     {
         "character": "๙",
-        "name": "kao",
-        "class": "none",
+        "name": "gao",
         "type": "digit",
-        "ipa": "9",
-        "example": "เก้า (kao)",
-        "example_english": "nine"
+        "example": "เก้า (gao)",
+        "example_english": "nine",
+        "audio": "numbers/9.mp3"
     },
     {
         "character": "๑๐",
         "name": "sip",
-        "class": "none",
         "type": "digit",
-        "ipa": "10",
         "example": "สิบ (sip)",
-        "example_english": "ten"
+        "example_english": "ten",
+        "audio": "numbers/10.mp3"
     },
     {
         "character": "๑๐๐",
         "name": "roi",
-        "class": "none",
         "type": "digit",
-        "ipa": "100",
         "example": "ร้อย (roi)",
-        "example_english": "hundred"
+        "example_english": "hundred",
+        "audio": "100.mp3"
     },
     {
         "character": "๑๐๐๐",
         "name": "phan",
-        "class": "none",
         "type": "digit",
-        "ipa": "1000",
         "example": "พัน (phan)",
-        "example_english": "thousand"
+        "example_english": "thousand",
+        "audio": "numbers/1000.mp3"
     },
     {
         "character": "๑๐๐๐๐",
         "name": "meun",
-        "class": "none",
         "type": "digit",
-        "ipa": "10000",
         "example": "หมื่น (meun)",
-        "example_english": "ten thousand"
+        "example_english": "ten thousand",
+        "audio": "numbers/10000.mp3"
     },
     {
         "character": "๑๐๐๐๐๐",
         "name": "saen",
-        "class": "none",
         "type": "digit",
-        "ipa": "100000",
         "example": "แสน (saen)",
-        "example_english": "hundred thousand"
+        "example_english": "hundred thousand",
+        "audio": "numbers/100000.mp3"
     },
     {
         "character": "๑๐๐๐๐๐๐",
-        "name": "lan",
-        "class": "none",
+        "name": "laan",
         "type": "digit",
-        "ipa": "1000000",
         "example": "ล้าน (lan)",
-        "example_english": "million"
+        "example_english": "million",
+        "audio": "numbers/1000000.mp3"
     }
 ]

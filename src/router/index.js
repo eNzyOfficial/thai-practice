@@ -1,9 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import ClassView from '../views/ClassView.vue';
+import ConsonantClassView from '../views/ConsonantClassView.vue';
 import DeadLiveView from '../views/DeadLiveView.vue';
 import ShortLongView from '@/views/ShortLongView.vue';
-import AlphabetFlashCardView from '../views/AlphabetFlashCardView.vue';
+import CharacterFlashCardView from '../views/CharacterFlashCardView.vue';
+import CharacterAudioView from '../views/CharacterAudioView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -14,9 +15,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/classes',
-      name: 'classes',
-      component: ClassView
+      path: '/consonant-classes',
+      name: 'consonant-classes',
+      component: ConsonantClassView
     },
     {
       path: '/dead-live',
@@ -29,9 +30,14 @@ const router = createRouter({
       component: ShortLongView
     },
     {
-      path: '/alphabet-flashcard',
-      name: 'alphabet-flashcard',
-      component: AlphabetFlashCardView
+      path: '/character-flashcard',
+      name: 'character-flashcard',
+      component: CharacterFlashCardView
+    },
+    {
+      path: '/character-audio',
+      name: 'character-audio',
+      component: CharacterAudioView
     },
   ]
 })

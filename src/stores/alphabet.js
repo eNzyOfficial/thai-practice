@@ -8,6 +8,7 @@ export const useAlphabetStore = defineStore('alphabet', () => {
   const tones = computed(() => data.value.filter(letter => letter.type === 'tone'))
   const consonants = computed(() => data.value.filter(letter => letter.type === 'consonant'))
   const vowels = computed(() => data.value.filter(letter => letter.type === 'vowel'))
+  const marks = computed(() => data.value.filter(letter => letter.type === 'mark'))
 
   const characters = computed(() => data.value.filter(letter => ['consonant', 'vowel'].includes(letter.type)))
   const numbers = computed(() => data.value.filter(letter => letter.type === 'digit'))
@@ -30,6 +31,7 @@ export const useAlphabetStore = defineStore('alphabet', () => {
     tones,
     consonants,
     vowels,
+    marks,
     characters,
     numbers,
     deadLiveCharacters,
