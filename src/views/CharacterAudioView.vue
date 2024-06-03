@@ -6,7 +6,7 @@ import { useRouter } from 'vue-router';
 const alphabetStore = useAlphabetStore();
 const router = useRouter();
 
-onMounted(() => resetGame());
+// onMounted(() => resetGame());
 
 const backButton = () => router.push({ name: 'home' });
 
@@ -17,7 +17,7 @@ const disablePreviousCharacters = ref(true);
 const currentIndex = ref(0);
 const gameMode = ref('consonants');
 
-const alphabet = ref(alphabetStore.characters);
+const alphabet = ref(alphabetStore.consonants);
 const currentCharacter = computed(() => alphabet.value[currentIndex.value]);
 const currentCharacterAudio = computed(() => new Audio(`audio/female/${currentCharacter.value.audio}`));
 const previousCharacters = ref([]);
@@ -136,7 +136,8 @@ function nextCharacter() {
 
         <van-cell center title="Characters">
             <template #right-icon>
-                <van-radio-group v-model="gameMode" direction="horizontal" @update:model-value="changeGameMode" class="text-xs md:text-lg">
+                <van-radio-group v-model="gameMode" direction="horizontal" @update:model-value="changeGameMode"
+                    class="text-xs sm:text-lg">
                     <van-radio name="consonants" icon-size="1rem">Consonants</van-radio>
                     <van-radio name="vowels" icon-size="1rem">Vowels</van-radio>
                     <van-radio name="numbers" icon-size="1rem">Numbers</van-radio>
@@ -147,8 +148,8 @@ function nextCharacter() {
 
         <van-cell center title="Disable Previous Characters">
             <template #right-icon>
-                <van-switch :model-value="disablePreviousCharacters"
-                    @update:model-value="setDisablePreviousCharacters" size="1rem" />
+                <van-switch :model-value="disablePreviousCharacters" @update:model-value="setDisablePreviousCharacters"
+                    size="1rem" />
             </template>
         </van-cell>
         <van-cell center title="Infinite Mode">
@@ -168,17 +169,19 @@ function nextCharacter() {
             <van-cell title="Score" :label="currentScore.score" />
         </van-space>
 
-        <div class="flex flex-grow p-4 justify-center items-center">
+        <div class="flex flex-grow justify-center items-center">
             <van-icon v-if="!gameFinished" @click="currentCharacterAudio.play()" type="primary" name="volume-o"
-                size="3rem" />
+                size="3rem" class="p-4 text-white rounded bg-blue-500 active:bg-blue-600 hover:bg-blue-400 hover:cursor-pointer" />
         </div>
 
-        <div v-if="!gameFinished" class="grid grid-cols-8 sm:grid-cols-7 lg:grid-cols-8 xl:grid-cols-12 gap-1 p-2 sm:p-2 sm:gap-2 xl:p-10 xl:gap-4">
-            <div v-for="(character, index) in alphabet" :key="index" class="hover:cursor-pointer select-none" @click="!previousCharacters.includes(index) && answer(index)">
-                <div class="rounded text-center text-2xl p-2 sm:p-4 md:p-5 lg:p-8 pointer-events-none" :class="{
+        <div v-if="!gameFinished"
+            class="grid grid-cols-6 sm:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 gap-1 p-2 sm:p-2 sm:gap-2 xl:p-10 xl:gap-4">
+            <div v-for="(character, index) in alphabet" :key="index" class="hover:cursor-pointer select-none"
+                @click="!previousCharacters.includes(index) && answer(index)">
+                <div class="rounded text-center text-sm sm:text-xl p-1 py-3 sm:p-2 sm:py-6 md:p-5 lg:p-6 lg:py-8 pointer-events-none" :class="{
                     'bg-slate-100': !disablePreviousCharacters || !previousCharacters.includes(index),
-                    'bg-slate-600 text-white': disablePreviousCharacters && previousCharacters.includes(index) 
-                }" >
+                    'bg-slate-600 text-white': disablePreviousCharacters && previousCharacters.includes(index)
+                }">
                     {{ character.character }}
                 </div>
             </div>
