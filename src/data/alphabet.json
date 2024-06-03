@@ -8,7 +8,8 @@
         "ipa": "k",
         "example": "ไก่ (gai)",
         "example_english": "chicken",
-        "audio": "consonants/ก.mp3"
+        "audio": "consonants/ก.mp3",
+        "final_consonant": "k"
     },
     {
         "character": "ข",
@@ -19,7 +20,8 @@
         "ipa": "kʰ",
         "example": "ไข่ (kai)",
         "example_english": "egg",
-        "audio": "consonants/ข.mp3"
+        "audio": "consonants/ข.mp3",
+        "final_consonant": "k"
     },
     {
         "character": "ฃ",
@@ -30,7 +32,8 @@
         "ipa": "kʰ",
         "example": "ฃวด (kuat)",
         "example_english": "bottle",
-        "audio": "consonants/ฃ.mp3"
+        "audio": "consonants/ฃ.mp3",
+        "final_consonant": "k"
     },
     {
         "character": "ค",
@@ -41,7 +44,8 @@
         "ipa": "kʰ",
         "example": "ควาย (kwaai)",
         "example_english": "water buffalo",
-        "audio": "consonants/ค.mp3"
+        "audio": "consonants/ค.mp3",
+        "final_consonant": "k"
     },
     {
         "character": "ฅ",
@@ -52,7 +56,8 @@
         "ipa": "kʰ",
         "example": "คน (kon)",
         "example_english": "person",
-        "audio": "consonants/ฅ.mp3"
+        "audio": "consonants/ฅ.mp3",
+        "final_consonant": "k"
     },
     {
         "character": "ฆ",
@@ -63,7 +68,8 @@
         "ipa": "kʰ",
         "example": "ระฆัง (ra-kang)",
         "example_english": "bell",
-        "audio": "consonants/ฆ.mp3"
+        "audio": "consonants/ฆ.mp3",
+        "final_consonant": "k"
     },
     {
         "character": "ง",
@@ -74,7 +80,8 @@
         "ipa": "ŋ",
         "example": "งู (ngoo)",
         "example_english": "snake",
-        "audio": "consonants/ง.mp3"
+        "audio": "consonants/ง.mp3",
+        "final_consonant": "ng"
     },
     {
         "character": "จ",
@@ -85,7 +92,8 @@
         "ipa": "t͡ɕ",
         "example": "จาน (jaan)",
         "example_english": "plate",
-        "audio": "consonants/จ.mp3"
+        "audio": "consonants/จ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ฉ",
@@ -96,7 +104,8 @@
         "ipa": "t͡ɕʰ",
         "example": "ฉิ่ง (ching)",
         "example_english": "cymbals",
-        "audio": "consonants/ฉ.mp3"
+        "audio": "consonants/ฉ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ช",
@@ -107,7 +116,8 @@
         "ipa": "t͡ɕʰ",
         "example": "ช้าง (chaang)",
         "example_english": "elephant",
-        "audio": "consonants/ช.mp3"
+        "audio": "consonants/ช.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ซ",
@@ -118,7 +128,8 @@
         "ipa": "s",
         "example": "โซ่ (so)",
         "example_english": "chain",
-        "audio": "consonants/ซ.mp3"
+        "audio": "consonants/ซ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ฌ",
@@ -129,7 +140,8 @@
         "ipa": "t͡ɕʰ",
         "example": "เฌอ (cheuh)",
         "example_english": "tree",
-        "audio": "consonants/ฌ.mp3"
+        "audio": "consonants/ฌ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ญ",
@@ -140,7 +152,8 @@
         "ipa": "j",
         "example": "หญิง (pooying)",
         "example_english": "woman",
-        "audio": "consonants/ญ.mp3"
+        "audio": "consonants/ญ.mp3",
+        "final_consonant": "n"
     },
     {
         "character": "ฎ",
@@ -151,7 +164,8 @@
         "ipa": "d",
         "example": "ชฎา (cha-da)",
         "example_english": "appeal",
-        "audio": "consonants/ฎ.mp3"
+        "audio": "consonants/ฎ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ฏ",
@@ -162,7 +176,8 @@
         "ipa": "t",
         "example": "ปฏัก (bpa-dtak)",
         "example_english": "spear",
-        "audio": "consonants/ฏ.mp3"
+        "audio": "consonants/ฏ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ฐ",
@@ -173,7 +188,8 @@
         "ipa": "tʰ",
         "example": "ฐาน (than)",
         "example_english": "base",
-        "audio": "consonants/ฐ.mp3"
+        "audio": "consonants/ฐ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ฑ",
@@ -184,7 +200,8 @@
         "ipa": "tʰ",
         "example": "มณโฑ (monto)",
         "example_english": "Montho (a character from the Ramayana)",
-        "audio": "consonants/ฑ.mp3"
+        "audio": "consonants/ฑ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ฒ",
@@ -195,7 +212,8 @@
         "ipa": "tʰ",
         "example": "ผู้เฒ่า (pootao)",
         "example_english": "elder",
-        "audio": "consonants/ฒ.mp3"
+        "audio": "consonants/ฒ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ณ",
@@ -206,7 +224,8 @@
         "ipa": "n",
         "example": "เณร (nen)",
         "example_english": "novice monk",
-        "audio": "consonants/ณ.mp3"
+        "audio": "consonants/ณ.mp3",
+        "final_consonant": "n"
     },
     {
         "character": "ด",
@@ -217,7 +236,8 @@
         "ipa": "d",
         "example": "เด็ก (dek)",
         "example_english": "child",
-        "audio": "consonants/ด.mp3"
+        "audio": "consonants/ด.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ต",
@@ -228,18 +248,20 @@
         "ipa": "t",
         "example": "เต่า (dtao)",
         "example_english": "turtle",
-        "audio": "consonants/ต.mp3"
+        "audio": "consonants/ต.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ถ",
-        "name": "taw toong",
+        "name": "taw tung",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "tʰ",
-        "example": "ถุง (toong)",
+        "example": "ถุง (tung)",
         "example_english": "bag",
-        "audio": "consonants/ถ.mp3"
+        "audio": "consonants/ถ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ท",
@@ -250,7 +272,8 @@
         "ipa": "tʰ",
         "example": "ทหาร (tahaan)",
         "example_english": "soldier",
-        "audio": "consonants/ท.mp3"
+        "audio": "consonants/ท.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ธ",
@@ -261,40 +284,44 @@
         "ipa": "tʰ",
         "example": "ธง (tong)",
         "example_english": "flag",
-        "audio": "consonants/ธ.mp3"
+        "audio": "consonants/ธ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "น",
-        "name": "naw noo",
+        "name": "naw neuu",
         "class": "low",
         "type": "consonant",
         "is_live": true,
         "ipa": "n",
-        "example": "หนู (noo)",
+        "example": "หนู (neuu)",
         "example_english": "mouse",
-        "audio": "consonants/น.mp3"
+        "audio": "consonants/น.mp3",
+        "final_consonant": "n"
     },
     {
         "character": "บ",
-        "name": "baw baimai",
+        "name": "baw bai mai",
         "class": "mid",
         "type": "consonant",
         "is_live": false,
         "ipa": "b",
-        "example": "ใบไม้ (baimai)",
+        "example": "ใบไม้ (bai mai)",
         "example_english": "leaf",
-        "audio": "consonants/บ.mp3"
+        "audio": "consonants/บ.mp3",
+        "final_consonant": "p"
     },
     {
         "character": "ป",
-        "name": "bpaw bpla",
+        "name": "bpaw bplaa",
         "class": "mid",
         "type": "consonant",
         "is_live": false,
         "ipa": "p",
-        "example": "ปลา (bpla)",
+        "example": "ปลา (bplaa)",
         "example_english": "fish",
-        "audio": "consonants/ป.mp3"
+        "audio": "consonants/ป.mp3",
+        "final_consonant": "p"
     },
     {
         "character": "ผ",
@@ -305,7 +332,8 @@
         "ipa": "pʰ",
         "example": "ผึ้ง (peung)",
         "example_english": "bee",
-        "audio": "consonants/ผ.mp3"
+        "audio": "consonants/ผ.mp3",
+        "final_consonant": "p"
     },
     {
         "character": "ฝ",
@@ -315,8 +343,9 @@
         "is_live": false,
         "ipa": "f",
         "example": "ฝา (faa)",
-        "example_english": "lid/cover",
-        "audio": "consonants/ฝ.mp3"
+        "example_english": "lid",
+        "audio": "consonants/ฝ.mp3",
+        "final_consonant": "p"
     },
     {
         "character": "พ",
@@ -325,9 +354,10 @@
         "type": "consonant",
         "is_live": false,
         "ipa": "pʰ",
-        "example": "พาน (phan)",
-        "example_english": "tray",
-        "audio": "consonants/พ.mp3"
+        "example": "พาน (paan)",
+        "example_english": "offering tray",
+        "audio": "consonants/พ.mp3",
+        "final_consonant": "p"
     },
     {
         "character": "ฟ",
@@ -337,19 +367,21 @@
         "is_live": false,
         "ipa": "f",
         "example": "ฟัน (fan)",
-        "example_english": "tooth",
-        "audio": "consonants/ฟ.mp3"
+        "example_english": "teeth",
+        "audio": "consonants/ฟ.mp3",
+        "final_consonant": "p"
     },
     {
         "character": "ภ",
-        "name": "paw sampao",
+        "name": "paw sam-pao",
         "class": "low",
         "type": "consonant",
         "is_live": false,
         "ipa": "pʰ",
-        "example": "สำเภา (sampao)",
-        "example_english": "junk (boat)",
-        "audio": "consonants/ภ.mp3"
+        "example": "สำเภา (sam-pao)",
+        "example_english": "sailboat",
+        "audio": "consonants/ภ.mp3",
+        "final_consonant": "p"
     },
     {
         "character": "ม",
@@ -358,9 +390,10 @@
         "type": "consonant",
         "is_live": true,
         "ipa": "m",
-        "example": "ม้า (ma)",
+        "example": "ม้า (maa)",
         "example_english": "horse",
-        "audio": "consonants/ม.mp3"
+        "audio": "consonants/ม.mp3",
+        "final_consonant": "m"
     },
     {
         "character": "ย",
@@ -371,7 +404,8 @@
         "ipa": "j",
         "example": "ยักษ์ (yak)",
         "example_english": "giant",
-        "audio": "consonants/ย.mp3"
+        "audio": "consonants/ย.mp3",
+        "final_consonant": "i"
     },
     {
         "character": "ร",
@@ -382,7 +416,8 @@
         "ipa": "r",
         "example": "เรือ (reua)",
         "example_english": "boat",
-        "audio": "consonants/ร.mp3"
+        "audio": "consonants/ร.mp3",
+        "final_consonant": "n"
     },
     {
         "character": "ล",
@@ -393,7 +428,8 @@
         "ipa": "l",
         "example": "ลิง (ling)",
         "example_english": "monkey",
-        "audio": "consonants/ล.mp3"
+        "audio": "consonants/ล.mp3",
+        "final_consonant": "n"
     },
     {
         "character": "ว",
@@ -408,36 +444,39 @@
     },
     {
         "character": "ศ",
-        "name": "saw kaw sala",
+        "name": "saw sa-laa",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "s",
-        "example": "ศาลา (sala)",
+        "example": "ศาลา (sa-laa)",
         "example_english": "pavilion",
-        "audio": "consonants/ศ.mp3"
+        "audio": "consonants/ศ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ษ",
-        "name": "saw baw rue-see",
+        "name": "saw reuu-sii",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "s",
-        "example": "ฤาษี (rue-see)",
+        "example": "ฤๅษี (reuu-sii)",
         "example_english": "hermit",
-        "audio": "consonants/ษ.mp3"
+        "audio": "consonants/ษ.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ส",
-        "name": "saw seua",
+        "name": "saw seuua",
         "class": "high",
         "type": "consonant",
         "is_live": false,
         "ipa": "s",
-        "example": "เสือ (seua)",
+        "example": "เสือ (seuua)",
         "example_english": "tiger",
-        "audio": "consonants/ส.mp3"
+        "audio": "consonants/ส.mp3",
+        "final_consonant": "t"
     },
     {
         "character": "ห",
@@ -446,20 +485,21 @@
         "type": "consonant",
         "is_live": false,
         "ipa": "h",
-        "example": "หีบ (hip)",
+        "example": "หีบ (heep)",
         "example_english": "chest",
         "audio": "consonants/ห.mp3"
     },
     {
         "character": "ฬ",
-        "name": "law joolaa",
+        "name": "law chu-laa",
         "class": "low",
         "type": "consonant",
         "is_live": true,
         "ipa": "l",
-        "example": "จุฬา (joolaa)",
+        "example": "จุฬา (chu-laa)",
         "example_english": "kite",
-        "audio": "consonants/ฬ.mp3"
+        "audio": "consonants/ฬ.mp3",
+        "final_consonant": "n"
     },
     {
         "character": "อ",
@@ -474,12 +514,12 @@
     },
     {
         "character": "ฮ",
-        "name": "haw nok-hook",
+        "name": "haw nok hook",
         "class": "low",
         "type": "consonant",
         "is_live": false,
         "ipa": "h",
-        "example": "นกฮูก (nok-hook)",
+        "example": "นกฮูก (nok hook)",
         "example_english": "owl",
         "audio": "consonants/ฮ.mp3"
     },

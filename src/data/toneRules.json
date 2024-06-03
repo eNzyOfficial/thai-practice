@@ -1,158 +1,158 @@
 [
     {
-        "class": "mid",
-        "type": "short vowel",
+        "class": "Mid",
+        "type": "Short vowel",
         "tone": "low"
     },
     {
-        "class": "high",
-        "type": "short vowel",
+        "class": "High",
+        "type": "Short vowel",
         "tone": "low"
     },
     {
-        "class": "low",
-        "type": "short vowel",
-        "tone": "high short"
+        "class": "Low",
+        "type": "Short vowel",
+        "tone": "high"
     },
     {
-        "class": "mid",
-        "type": "long vowel",
+        "class": "Mid",
+        "type": "Long vowel",
         "tone": "medium"
     },
     {
-        "class": "high",
-        "type": "long vowel",
+        "class": "High",
+        "type": "Long vowel",
         "tone": "rising"
     },
     {
-        "class": "low",
-        "type": "long vowel",
+        "class": "Low",
+        "type": "Long vowel",
         "tone": "medium"
     },
 
     {
-        "class": "mid",
-        "type": "live short vowel",
+        "class": "Mid",
+        "type": "Live short vowel",
         "tone": "medium"
     },
     {
-        "class": "high",
-        "type": "live short vowel",
+        "class": "High",
+        "type": "Live short vowel",
         "tone": "rising"
     },
     {
-        "class": "low",
-        "type": "live short vowel",
+        "class": "Low",
+        "type": "Live short vowel",
         "tone": "medium"
     },
     {
-        "class": "mid",
-        "type": "live long vowel",
+        "class": "Mid",
+        "type": "Live long vowel",
         "tone": "medium"
     },
     {
-        "class": "high",
-        "type": "live long vowel",
+        "class": "High",
+        "type": "Live long vowel",
         "tone": "rising"
     },
     {
-        "class": "low",
-        "type": "live long vowel",
+        "class": "Low",
+        "type": "Live long vowel",
         "tone": "medium"
     },
     
     {
-        "class": "mid",
-        "type": "dead short vowel",
+        "class": "Mid",
+        "type": "Dead short vowel",
         "tone": "low"
     },
     {
-        "class": "high",
-        "type": "dead short vowel",
+        "class": "High",
+        "type": "Dead short vowel",
         "tone": "low"
     },
     {
-        "class": "low",
-        "type": "dead short vowel",
-        "tone": "high short"
-    },
-    {
-        "class": "mid",
-        "type": "dead long vowel",
-        "tone": "low"
-    },
-    {
-        "class": "high",
-        "type": "dead long vowel",
-        "tone": "low"
-    },
-    {
-        "class": "low",
-        "type": "dead long vowel",
-        "tone": "falling"
-    },
-
-    {
-        "class": "mid",
-        "type": "่",
-        "tone": "low"
-    },
-    {
-        "class": "high",
-        "type": "่",
-        "tone": "low"
-    },
-    {
-        "class": "low",
-        "type": "่",
-        "tone": "falling"
-    },
-
-    {
-        "class": "mid",
-        "type": "้",
-        "tone": "falling"
-    },
-    {
-        "class": "high",
-        "type": "้",
-        "tone": "falling"
-    },
-    {
-        "class": "low",
-        "type": "้",
-        "tone": "-"
-    },
-
-    {
-        "class": "mid",
-        "type": "๊",
+        "class": "Low",
+        "type": "Dead short vowel",
         "tone": "high"
     },
     {
-        "class": "high",
-        "type": "๊",
-        "tone": "-"
+        "class": "Mid",
+        "type": "Dead long vowel",
+        "tone": "low"
     },
     {
-        "class": "low",
-        "type": "๊",
+        "class": "High",
+        "type": "Dead long vowel",
+        "tone": "low"
+    },
+    {
+        "class": "Low",
+        "type": "Dead long vowel",
+        "tone": "falling"
+    },
+
+    {
+        "class": "Mid",
+        "type": "_่",
+        "tone": "low"
+    },
+    {
+        "class": "High",
+        "type": "_่",
+        "tone": "low"
+    },
+    {
+        "class": "Low",
+        "type": "_่",
+        "tone": "falling"
+    },
+
+    {
+        "class": "Mid",
+        "type": "_้",
+        "tone": "falling"
+    },
+    {
+        "class": "High",
+        "type": "_้",
+        "tone": "falling"
+    },
+    {
+        "class": "Low",
+        "type": "_้",
         "tone": "-"
     },
 
     {
-        "class": "mid",
-        "type": "๋",
-        "tone": "rising"
+        "class": "Mid",
+        "type": "_๊",
+        "tone": "high"
     },
     {
-        "class": "high",
-        "type": "๋",
+        "class": "High",
+        "type": "_๊",
         "tone": "-"
     },
     {
-        "class": "low",
-        "type": "๋",
+        "class": "Low",
+        "type": "_๊",
+        "tone": "-"
+    },
+
+    {
+        "class": "Mid",
+        "type": "_๋",
+        "tone": "rising"
+    },
+    {
+        "class": "High",
+        "type": "_๋",
+        "tone": "-"
+    },
+    {
+        "class": "Low",
+        "type": "_๋",
         "tone": "-"
     }
 ]

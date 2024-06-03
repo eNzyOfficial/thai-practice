@@ -5,6 +5,8 @@ import DeadLiveView from '../views/DeadLiveView.vue';
 import ShortLongView from '@/views/ShortLongView.vue';
 import CharacterFlashCardView from '../views/CharacterFlashCardView.vue';
 import CharacterAudioView from '../views/CharacterAudioView.vue';
+import ToneRuleView from '../views/ToneRuleView.vue';
+import FinalConsonantView from '../views/FinalConsonantView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -15,30 +17,40 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/consonant-classes',
+      path: '/consonant/classes',
       name: 'consonant-classes',
       component: ConsonantClassView
     },
     {
-      path: '/dead-live',
-      name: 'dead-live',
+      path: '/consonant/final',
+      name: 'consonant-final',
+      component: FinalConsonantView
+    },
+    {
+      path: '/consonant/dead-live',
+      name: 'consonant-dead-live',
       component: DeadLiveView
     },
     {
-      path: '/short-long',
-      name: 'short-long',
+      path: '/vowel/short-long',
+      name: 'vowel-short-long',
       component: ShortLongView
     },
     {
-      path: '/character-flashcard',
+      path: '/character/flashcard',
       name: 'character-flashcard',
       component: CharacterFlashCardView
     },
     {
-      path: '/character-audio',
+      path: '/character/audio',
       name: 'character-audio',
       component: CharacterAudioView
     },
+    {
+      path: '/tone/rules',
+      name: 'tone-rules',
+      component: ToneRuleView
+    }
   ]
 })
 

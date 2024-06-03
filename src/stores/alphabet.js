@@ -26,6 +26,9 @@ export const useAlphabetStore = defineStore('alphabet', () => {
   const short = computed(() => shortLongCharacters.value.filter(letter => letter.length === 'short'))
   const long = computed(() => shortLongCharacters.value.filter(letter => letter.length === 'long'))
 
+  const finalConsonants = computed(() => data.value.filter(letter => !!letter.final_consonant))
+  const finalConsonantCharacters = computed(() => finalConsonants.value.map(letter => letter.final_consonant).filter((value, index, self) => self.indexOf(value) === index))
+
   return {
     data,
     tones,
@@ -44,5 +47,7 @@ export const useAlphabetStore = defineStore('alphabet', () => {
     shortLongCharacters,
     short,
     long,
+    finalConsonants,
+    finalConsonantCharacters
   }
 })
