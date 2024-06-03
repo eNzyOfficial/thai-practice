@@ -804,7 +804,7 @@
         "audio": "vowels/sara-ao.mp3"
     },
     {
-        "character": "_่",
+        "character": "อ่",
         "name": "mai ayk",
         "type": "mark",
         "ipa": "low",
@@ -813,7 +813,7 @@
         "audio": "marks/mai-ayk.mp3"
     },
     {
-        "character": "_้",
+        "character": "อ้",
         "name": "mai toh",
         "type": "mark",
         "ipa": "falling",
@@ -822,7 +822,7 @@
         "audio": "marks/mai-toh.mp3"
     },
     {
-        "character": "_๊",
+        "character": "อ๊",
         "name": "mai dtrii",
         "type": "mark",
         "ipa": "high",
@@ -831,7 +831,7 @@
         "audio": "marks/mai-dtrii.mp3"
     },
     {
-        "character": "_๋",
+        "character": "อ๋",
         "name": "mai jat dta waa",
         "type": "mark",
         "ipa": "rising",
