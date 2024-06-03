@@ -71,6 +71,8 @@ function resetGame() {
     currentIndex.value = Math.floor(Math.random() * alphabet.value.length);
 
     gameFinished.value = false;
+
+    currentCharacterAudio.value.play();
 }
 
 function infiniteMode(value) {
@@ -95,10 +97,6 @@ function setDisablePreviousCharacters(value) {
 }
 
 function answer(value) {
-    // if (value === currentCharacter.value.character) {
-    //     // SCORE/COUNT
-    // }
-
     if (value === currentIndex.value) {
         currentScore.value.correct++;
         currentScore.value.score += 10;
