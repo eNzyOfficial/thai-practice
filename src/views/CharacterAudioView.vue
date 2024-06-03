@@ -19,7 +19,7 @@ const gameMode = ref('consonants');
 
 const alphabet = ref(alphabetStore.characters);
 const currentCharacter = computed(() => alphabet.value[currentIndex.value]);
-const currentCharacterAudio = computed(() => new Audio(`/audio/female/${currentCharacter.value.audio}`));
+const currentCharacterAudio = computed(() => new Audio(`audio/female/${currentCharacter.value.audio}`));
 const previousCharacters = ref([]);
 
 const currentScore = ref({
