@@ -7,6 +7,7 @@ import CharacterFlashCardView from '../views/CharacterFlashCardView.vue';
 import CharacterAudioView from '../views/CharacterAudioView.vue';
 import ToneRuleView from '../views/ToneRuleView.vue';
 import FinalConsonantView from '../views/FinalConsonantView.vue';
+import ConsonantWordView from '../views/ConsonantWordView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -30,6 +31,11 @@ const router = createRouter({
       path: '/consonant/dead-live',
       name: 'consonant-dead-live',
       component: DeadLiveView
+    },
+    {
+      path: '/consonant/words',
+      name: 'consonant-words',
+      component: ConsonantWordView
     },
     {
       path: '/vowel/short-long',

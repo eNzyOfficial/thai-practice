@@ -10,15 +10,16 @@
       <van-divider>Characters</van-divider>
       <van-button type="primary" block :to="{ name: 'character-audio' }">Audio</van-button>
       <van-button type="primary" block :to="{ name: 'character-flashcard' }">Flashcards</van-button>
-        
+
       <van-divider>Consonants</van-divider>
+      <van-button type="primary" block :to="{ name: 'consonant-words' }">Word Meanings</van-button>
       <van-button type="primary" block :to="{ name: 'consonant-classes' }">Classes</van-button>
       <van-button type="primary" block :to="{ name: 'consonant-dead-live' }">Dead or Live</van-button>
       <van-button type="primary" block :to="{ name: 'consonant-final' }">Final</van-button>
-      
+
       <van-divider>Vowels</van-divider>
       <van-button type="primary" block :to="{ name: 'vowel-short-long' }">Short or Long</van-button>
-      
+
       <van-divider>Tones</van-divider>
       <van-button type="primary" block :to="{ name: 'tone-rules' }">Rules</van-button>
     </van-space>
