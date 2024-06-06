@@ -129,6 +129,7 @@ function resetGame() {
                 <van-button type="primary" block @click="answerQuestion('medium')">Medium</van-button>
                 <van-button type="primary" block @click="answerQuestion('rising')">Rising</van-button>
                 <van-button type="primary" block @click="answerQuestion('low')">Low</van-button>
+                <van-button type="primary" block @click="answerQuestion('-')">-</van-button>
             </van-space>
 
             <van-button type="primary" round @click="resetGame" v-if="gameFinished">Reset</van-button>

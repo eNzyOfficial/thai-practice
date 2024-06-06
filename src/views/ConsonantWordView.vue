@@ -68,6 +68,8 @@ function getChoices() {
         .map(char => char.example_english);
 
     choices.value.push(currentCharacter.value.example_english)
+
+    choices.value = choices.value.sort(() => Math.random() - 0.5)
 }
 
 function resetGame() {
