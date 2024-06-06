@@ -60,7 +60,7 @@ const options = ref([]);
 const result = ref('');
 const showResult = ref(false);
 const userAnswer = ref('');
-const consonants = ref('รลวทศสพหมงณบนกข');
+const consonants = ref('กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮ');
 const medial = ref('ะือัุ');
 
 const characters = computed(() => medial.value.split('').concat(consonants.value.split('')));
@@ -75,9 +75,10 @@ function nextQuestion() {
     userAnswer.value = '';
 
     const optionsValue = correctAnswer.value.split('')
+        .concat(originalWord.value.split(''))
         .filter((char, index, self) => self.indexOf(char) === index);
 
-    while (optionsValue.length < 10) {
+    while (optionsValue.length < 15) {
         const availableCharacters = characters.value.filter(char => !optionsValue.includes(char));
 
         if (availableCharacters.length === 0) {
