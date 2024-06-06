@@ -9,6 +9,7 @@ import ToneRuleView from '../views/ToneRuleView.vue';
 import FinalConsonantView from '../views/FinalConsonantView.vue';
 import ConsonantWordView from '../views/ConsonantWordView.vue';
 import CharacterInfoView from '../views/CharacterInfoView.vue';
+import VowelFormChangeView from '../views/VowelFormChangeView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -42,6 +43,11 @@ const router = createRouter({
       path: '/vowel/short-long',
       name: 'vowel-short-long',
       component: ShortLongView
+    },
+    {
+      path: '/vowel/form-change',
+      name: 'vowel-form-change',
+      component: VowelFormChangeView
     },
     {
       path: '/character/flashcard',

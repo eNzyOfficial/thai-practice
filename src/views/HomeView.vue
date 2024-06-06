@@ -20,6 +20,7 @@
 
       <van-divider>Vowels</van-divider>
       <van-button type="primary" block :to="{ name: 'vowel-short-long' }">Short or Long</van-button>
+      <van-button type="primary" block :to="{ name: 'vowel-form-change' }">Form Change</van-button>
 
       <van-divider>Tones</van-divider>
       <van-button type="primary" block :to="{ name: 'tone-rules' }">Rules</van-button>
