@@ -1,0 +1,128 @@
+[
+  {
+    "rule": "ะ changes to ◌ั",
+    "question": "What does the vowel ะ change to when followed by the final consonant ก?",
+    "options": ["ะ", "า", "ั", "็"],
+    "answer": "ั"
+  },
+  {
+    "rule": "ะ changes to ◌ั",
+    "question": "What does the vowel ะ change to when followed by the final consonant ม?",
+    "options": ["ะ", "า", "ั", "็"],
+    "answer": "ั"
+  },
+  {
+    "rule": "ะ changes to ◌ั",
+    "question": "What does the vowel ะ change to when followed by the final consonant น?",
+    "options": ["ะ", "า", "ั", "็"],
+    "answer": "ั"
+  },
+  {
+    "rule": "อือ changes to อื",
+    "question": "What does the vowel อือ change to when followed by the final consonant ด?",
+    "options": ["อือ", "อี", "อา", "อื"],
+    "answer": "อื"
+  },
+  {
+    "rule": "อือ changes to อื",
+    "question": "What does the vowel อือ change to when followed by the final consonant บ?",
+    "options": ["อือ", "อี", "อา", "อื"],
+    "answer": "อื"
+  },
+  {
+    "rule": "อือ changes to อื",
+    "question": "What does the vowel อือ change to when followed by the final consonant ย?",
+    "options": ["อือ", "อี", "อา", "อื"],
+    "answer": "อื"
+  },
+  {
+    "rule": "เอะ changes to เ◌็",
+    "question": "What does the vowel เอะ change to when followed by the final consonant น?",
+    "options": ["เอ", "เ◌็", "เ็", "เ◌"],
+    "answer": "เ◌็"
+  },
+  {
+    "rule": "เอะ changes to เ◌็",
+    "question": "What does the vowel เอะ change to when followed by the final consonant ร?",
+    "options": ["เอ", "เ◌็", "เ็", "เ◌"],
+    "answer": "เ◌็"
+  },
+  {
+    "rule": "เอะ changes to เ◌็",
+    "question": "What does the vowel เอะ change to when followed by the final consonant ย?",
+    "options": ["เอ", "เ◌็", "เ็", "เ◌"],
+    "answer": "เ◌็"
+  },
+  {
+    "rule": "แอะ changes to แ◌็",
+    "question": "What does the vowel แอะ change to when followed by the final consonant ง?",
+    "options": ["แ◌็", "แอ", "แ◌", "แ็"],
+    "answer": "แ◌็"
+  },
+  {
+    "rule": "แอะ changes to แ◌็",
+    "question": "What does the vowel แอะ change to when followed by the final consonant ต?",
+    "options": ["แ◌็", "แอ", "แ◌", "แ็"],
+    "answer": "แ◌็"
+  },
+  {
+    "rule": "แอะ changes to แ◌็",
+    "question": "What does the vowel แอะ change to when followed by the final consonant บ?",
+    "options": ["แ◌็", "แอ", "แ◌", "แ็"],
+    "answer": "แ◌็"
+  },
+  {
+    "rule": "โอะ changes to ◌ะ",
+    "question": "What does the vowel โอะ change to when followed by the final consonant บ?",
+    "options": ["โอ", "โ◌", "◌ะ", "โอะ"],
+    "answer": "◌ะ"
+  },
+  {
+    "rule": "โอะ changes to ◌ะ",
+    "question": "What does the vowel โอะ change to when followed by the final consonant ม?",
+    "options": ["โอ", "โ◌", "◌ะ", "โอะ"],
+    "answer": "◌ะ"
+  },
+  {
+    "rule": "โอะ changes to ◌ะ",
+    "question": "What does the vowel โอะ change to when followed by the final consonant ร?",
+    "options": ["โอ", "โ◌", "◌ะ", "โอะ"],
+    "answer": "◌ะ"
+  },
+  {
+    "rule": "อัว changes to อว",
+    "question": "What does the vowel อัว change to when followed by the final consonant น?",
+    "options": ["อัว", "อว", "อะ", "ว"],
+    "answer": "อว"
+  },
+  {
+    "rule": "อัว changes to อว",
+    "question": "What does the vowel อัว change to when followed by the final consonant บ?",
+    "options": ["อัว", "อว", "อะ", "ว"],
+    "answer": "อว"
+  },
+  {
+    "rule": "อัว changes to อว",
+    "question": "What does the vowel อัว change to when followed by the final consonant ย?",
+    "options": ["อัว", "อว", "อะ", "ว"],
+    "answer": "อว"
+  },
+  {
+    "rule": "เ_อ changes to เ_ิ",
+    "question": "What does the vowel เ_อ change to when followed by the final consonant ก?",
+    "options": ["เ◌็", "เิ", "เอ", "เ็"],
+    "answer": "เิ"
+  },
+  {
+    "rule": "เ_อ changes to เ_ิ",
+    "question": "What does the vowel เ_อ change to when followed by the final consonant ด?",
+    "options": ["เ◌็", "เิ", "เอ", "เ็"],
+    "answer": "เิ"
+  },
+  {
+    "rule": "เ_อ changes to เ_ิ",
+    "question": "What does the vowel เ_อ change to when followed by the final consonant ร?",
+    "options": ["เ◌็", "เิ", "เอ", "เ็"],
+    "answer": "เิ"
+  }
+]

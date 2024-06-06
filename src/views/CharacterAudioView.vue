@@ -6,7 +6,7 @@ import { useRouter } from 'vue-router';
 const alphabetStore = useAlphabetStore();
 const router = useRouter();
 
-// onMounted(() => resetGame());
+onMounted(() => resetGame());
 
 const backButton = () => router.push({ name: 'home' });
 
@@ -171,17 +171,19 @@ function nextCharacter() {
 
         <div class="flex flex-grow justify-center items-center">
             <van-icon v-if="!gameFinished" @click="currentCharacterAudio.play()" type="primary" name="volume-o"
-                size="3rem" class="p-4 text-white rounded bg-blue-500 active:bg-blue-600 hover:bg-blue-400 hover:cursor-pointer" />
+                size="3rem"
+                class="p-4 text-white rounded bg-blue-500 active:bg-blue-600 hover:bg-blue-400 hover:cursor-pointer" />
         </div>
 
         <div v-if="!gameFinished"
             class="grid grid-cols-6 sm:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 gap-1 p-2 sm:p-2 sm:gap-2 xl:p-10 xl:gap-4">
             <div v-for="(character, index) in alphabet" :key="index" class="hover:cursor-pointer select-none"
                 @click="!previousCharacters.includes(index) && answer(index)">
-                <div class="rounded text-center text-sm sm:text-xl p-1 py-3 sm:p-2 sm:py-6 md:p-5 lg:p-6 lg:py-8 pointer-events-none" :class="{
-                    'bg-slate-100': !disablePreviousCharacters || !previousCharacters.includes(index),
-                    'bg-slate-600 text-white': disablePreviousCharacters && previousCharacters.includes(index)
-                }">
+                <div class="rounded text-center text-sm sm:text-xl p-1 py-3 sm:p-2 sm:py-6 md:p-5 lg:p-6 lg:py-8 pointer-events-none"
+                    :class="{
+                        'bg-slate-100': !disablePreviousCharacters || !previousCharacters.includes(index),
+                        'bg-slate-600 text-white': disablePreviousCharacters && previousCharacters.includes(index)
+                    }">
                     {{ character.character }}
                 </div>
             </div>

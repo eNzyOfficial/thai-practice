@@ -8,6 +8,7 @@
 
     <van-space direction="vertical" fill>
       <van-divider>Characters</van-divider>
+      <van-button type="primary" block :to="{ name: 'character-info' }">Info</van-button>
       <van-button type="primary" block :to="{ name: 'character-audio' }">Audio</van-button>
       <van-button type="primary" block :to="{ name: 'character-flashcard' }">Flashcards</van-button>
 

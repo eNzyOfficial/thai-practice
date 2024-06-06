@@ -8,6 +8,7 @@ import CharacterAudioView from '../views/CharacterAudioView.vue';
 import ToneRuleView from '../views/ToneRuleView.vue';
 import FinalConsonantView from '../views/FinalConsonantView.vue';
 import ConsonantWordView from '../views/ConsonantWordView.vue';
+import CharacterInfoView from '../views/CharacterInfoView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -51,6 +52,11 @@ const router = createRouter({
       path: '/character/audio',
       name: 'character-audio',
       component: CharacterAudioView
+    },
+    {
+      path: '/character/info',
+      name: 'character-info',
+      component: CharacterInfoView
     },
     {
       path: '/tone/rules',
