@@ -37,21 +37,14 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
+import vowelFormRules from '../data/vowelFormRules.json';
 
 const router = useRouter();
 
 const backButton = () => router.push({ name: 'home' });
 
 const rule = ref(null);
-const rules = ref([
-    { pattern: '_ะ', replacement: '_ั' },
-    { pattern: '_ือ', replacement: '_ื' },
-    { pattern: 'เ_ะ', replacement: 'เ_็' },
-    { pattern: 'แ_ะ', replacement: 'แ_็' },
-    { pattern: 'โ_ะ', replacement: '_ะ' },
-    { pattern: '_ัว', replacement: '_ว' },
-    { pattern: 'เ_อ', replacement: 'เ_ิ' }
-]);
+const rules = ref(vowelFormRules);
 const originalWord = ref('');
 const initialConsonant = ref('');
 const finalConsonant = ref('');

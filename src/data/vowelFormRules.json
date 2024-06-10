@@ -1,0 +1,9 @@
+[
+  { "pattern": "_ะ", "replacement": "_ั" },
+  { "pattern": "_ือ", "replacement": "_ื" },
+  { "pattern": "เ_ะ", "replacement": "เ_็" },
+  { "pattern": "แ_ะ", "replacement": "แ_็" },
+  { "pattern": "โ_ะ", "replacement": "_" },
+  { "pattern": "_ัว", "replacement": "_ว" },
+  { "pattern": "เ_อ", "replacement": "เ_ิ" }
+]
