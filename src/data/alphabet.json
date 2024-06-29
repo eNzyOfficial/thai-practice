@@ -770,7 +770,7 @@
     "ipa": "am",
     "example": "นำ (nam)",
     "example_english": "lead",
-    "is_short": true,
+    "is_short": false,
     "audio": "vowels/sara-am.mp3"
   },
   {
