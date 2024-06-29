@@ -17,7 +17,7 @@
       <van-button type="primary" block :to="{ name: 'consonant-classes' }">Classes</van-button>
       <van-button type="primary" block :to="{ name: 'consonant-dead-live' }">Dead or Live</van-button>
       <van-button type="primary" block :to="{ name: 'consonant-final' }">Final</van-button>
-      <van-button type="primary" block :to="{ name: 'consonant-lead-by-haw-heep' }">Lead by Haw/Heep</van-button>
+      <van-button type="primary" block :to="{ name: 'consonant-lead-by-haw-heep' }">Lead by ห</van-button>
       <van-button type="primary" block :to="{ name: 'consonant-cluster' }">Real Clusters</van-button>
 
       <van-divider>Vowels</van-divider>
