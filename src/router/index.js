@@ -10,6 +10,9 @@ import FinalConsonantView from '../views/FinalConsonantView.vue';
 import ConsonantWordView from '../views/ConsonantWordView.vue';
 import CharacterInfoView from '../views/CharacterInfoView.vue';
 import VowelFormChangeView from '../views/VowelFormChangeView.vue';
+import WordSorter from '../views/WordSorter.vue';
+import ConsonantLeadByHawHeepView from '../views/ConsonantLeadByHawHeepView.vue';
+import ConsonantClusterView from '../views/ConsonantClusterView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -40,6 +43,16 @@ const router = createRouter({
       component: ConsonantWordView
     },
     {
+      path: '/consonant/lead-by-haw-heep',
+      name: 'consonant-lead-by-haw-heep',
+      component: ConsonantLeadByHawHeepView
+    },
+    {
+      path: '/consonant/cluster',
+      name: 'consonant-cluster',
+      component: ConsonantClusterView
+    },
+    {
       path: '/vowel/short-long',
       name: 'vowel-short-long',
       component: ShortLongView
@@ -68,6 +81,11 @@ const router = createRouter({
       path: '/tone/rules',
       name: 'tone-rules',
       component: ToneRuleView
+    },
+    {
+      path: '/tone/sorter',
+      name: 'tone-sorter',
+      component: WordSorter
     }
   ]
 })

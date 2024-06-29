@@ -89,7 +89,7 @@ function resetGame() {
 
 <template>
     <div class="min-h-screen flex flex-col">
-        <van-nav-bar title="Tone Rules" left-text="Back" left-arrow @click-left="backButton" />
+        <van-nav-bar title="Tone RUles" left-text="Back" left-arrow @click-left="backButton" />
 
         <van-cell center title="Infinite Mode">
             <template #right-icon>
@@ -110,9 +110,9 @@ function resetGame() {
 
         <div class="flex flex-col flex-grow p-4">
             <div class="flex flex-col text-center flex-grow justify-center">
-                <p v-if="!gameFinished" class="text-6xl">
+                <p v-if="!gameFinished" class="text-8xl">
                     {{ currentCharacter.class }}<br>
-                    {{ currentCharacter.type }}
+                    {{ currentCharacter.type }}    
                 </p>
                 <p v-if="!gameFinished" class="text-sm text-slate-200 cursor-default mt-2" @click="cheat = !cheat">
                     <span v-if="!cheat">cheat</span>
@@ -121,7 +121,7 @@ function resetGame() {
             </div>
 
             <p v-if="!infinite && !gameFinished" class="text-center text-md mb-4">{{ currentIndex + 1 }} of {{
-            rules.length }}</p>
+                rules.length }}</p>
 
             <van-space direction="vertical" fill v-if="!gameFinished">
                 <van-button type="primary" block @click="answerQuestion('high-short')">High Short</van-button>
@@ -130,7 +130,6 @@ function resetGame() {
                 <van-button type="primary" block @click="answerQuestion('medium')">Medium</van-button>
                 <van-button type="primary" block @click="answerQuestion('rising')">Rising</van-button>
                 <van-button type="primary" block @click="answerQuestion('low')">Low</van-button>
-                <van-button type="primary" block @click="answerQuestion('-')">-</van-button>
             </van-space>
 
             <van-button type="primary" round @click="resetGame" v-if="gameFinished">Reset</van-button>

@@ -1,0 +1,1135 @@
+[
+  {
+    "character": "ตา",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ดำ",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "กำ",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ไก",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ใน",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "มือ",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "นำ",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ใส",
+    "tone": "rising",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "มี",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ไห",
+    "tone": "rising",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "สี",
+    "tone": "rising",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "คน",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "ใช้",
+    "tone": "high",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  {
+    "character": "ถือ",
+    "tone": "rising",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ใย",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "บัว",
+    "tone": "medium",
+    "class": "middle",
+    "length": "short",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "ลูก",
+    "tone": "falling",
+    "class": "low",
+    "length": "long",
+    "dead": false,
+    "marker": null
+  },
+  {
+    "character": "เต่า",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "ayk"
+  },
+  {
+    "character": "ตัว",
+    "tone": "medium",
+    "class": "middle",
+    "length": "short",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "เบา",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ช้าง",
+    "tone": "high",
+    "class": "low",
+    "length": "long",
+    "dead": true,
+    "marker": "toh"
+  },
+  {
+    "character": "โต",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ดี",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ป้า",
+    "tone": "falling",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  {
+    "character": "ใจ",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "น้ำ",
+    "tone": "high",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  { "character": "ให้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "แมง",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "มุม",
+    "tone": "medium",
+    "class": "low",
+    "length": "short",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "ไต่",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "ayk"
+  },
+  {
+    "character": "ขา",
+    "tone": "rising",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "แฟน",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "เก่า",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "ayk"
+  },
+  {
+    "character": "เกา",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "แมว",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "จะ",
+    "tone": "low",
+    "class": "middle",
+    "length": "short",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "เป่า",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "ayk"
+  },
+  {
+    "character": "โป่ง",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": true,
+    "marker": "ayk"
+  },
+  {
+    "character": "ไหม",
+    "tone": "rising",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "กอ",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ไม้",
+    "tone": "high",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  {
+    "character": "นี้",
+    "tone": "high",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  {
+    "character": "ใหญ่",
+    "tone": "low",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": "ayk"
+  },
+  {
+    "character": "ปู่",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "ayk"
+  },
+  {
+    "character": "ไล",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "อะ",
+    "tone": "low",
+    "class": "middle",
+    "length": "short",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ไร",
+    "tone": "medium",
+    "class": "low",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "อยู่",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "ayk"
+  },
+  {
+    "character": "ใต้",
+    "tone": "falling",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  {
+    "character": "เตา",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "เขา",
+    "tone": "rising",
+    "class": "high",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "เดา",
+    "tone": "medium",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ได้",
+    "tone": "falling",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  {
+    "character": "เก่ง",
+    "tone": "low",
+    "class": "middle",
+    "length": "long",
+    "dead": true,
+    "marker": "ayk"
+  },
+  {
+    "character": "ลุง",
+    "tone": "medium",
+    "class": "low",
+    "length": "short",
+    "dead": true,
+    "marker": null
+  },
+  {
+    "character": "โก้",
+    "tone": "falling",
+    "class": "middle",
+    "length": "long",
+    "dead": null,
+    "marker": "toh"
+  },
+  {
+    "character": "จัง",
+    "tone": "medium",
+    "class": "middle",
+    "length": "short",
+    "dead": true,
+    "marker": null
+  },
+  { "character": "เลย", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จอ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "หนัง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "อา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "คำ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เกาะ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ประ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ตู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จำ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เจาะ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ดู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ป๋า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ตำ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ส้ม", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เตะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ตอ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "น้อง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "แดง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เตาะ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "แตะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เต้น",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ระ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "บำ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ใบ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ชา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไป", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไหน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เอา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ผ้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "โม", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "โห", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "น้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไอ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ทุก", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "วัน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "โปะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ยา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "หน้า",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "แข้ง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "เบาะ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ไม่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "นุ่ม",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "อย่า",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ช้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "นะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "คะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แม่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แคะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "กระ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ปุก", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "คา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "งา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "พี่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ทา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จับ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แพะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ชน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แกะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ล่อง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "แพ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ยู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "กัน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แก้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ช้ำ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "มะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ละ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "รา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "รู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ทะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ลุ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ที่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ตู้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "วัง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ขึ้น",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "มัน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "สุก", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เละ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เหนือ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "และ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แวะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ปั๊", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "มน้ำ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ครื้น",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "เครง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "เฮฮา",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "กิน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไก่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไข่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "สะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ใภ้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ซื้อ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "งู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ฟ้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ควาย",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ลา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เทา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "บิดา",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "มา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "หา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "น่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "หู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "สอง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ม้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "พ่อ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ฝน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เริ่ม",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ซา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "แล้ว",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "แทะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "กระดูก",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "เท", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ลง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ดิน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "นา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "มึง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "สี่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ฝา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ปู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ปี่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ทะลุ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "กา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ผู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ผุ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ห้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขี่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ที", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "กระปุก",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "อะไร",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "พี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ทาย", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ยุ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "มะระ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ชำ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "มะละกอ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ระวัง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ปั๊ม",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "สะใภ้",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "จี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขี้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แก่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ถู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เป็น",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ผู้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ชนะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แส้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ตี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แห", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ปลา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แผ่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ความ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "จริง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ปา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "สู้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เสียง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "แห่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขัน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "หมาก",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ข้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ข่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ฝี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ดา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แยะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จ่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เจ๊", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "บี้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จ๋า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "กะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ด้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ดูปู",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "จี้ไม่",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ปูมี",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ก็", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แด", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จ้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ด่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": " ดี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จี้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "จี่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ดุ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แปด", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ป่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "กับ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เห็น",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "กลอง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "เพราะ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "คือ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ชื่อ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ขนม", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "กู้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เงิน",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "อู้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "งาน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เมา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เป็", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แบก", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เป้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ของ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ขวัญ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "แต่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ครู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "รู้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "กะปิ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ติกา",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "อี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ตุ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ปิ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ติ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ตะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แปะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เกะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขำ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ดอก", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เฉา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เผา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขยะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "หอ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไข", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "โผ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "กอด", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ปืน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ต้น", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เสา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขอ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไถ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "๊ะ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เรา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไฝ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เหา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ใส่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "หัว", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "หมอ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แบบ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เรียน",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "ค่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ค้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ผ่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ง่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ท้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ฆ่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "คู่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ซู่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ซ่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "รัก", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ว่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ชี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "รี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "มื้อ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "รื้อ",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "อ้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ชี้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "สา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ลี", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขาว", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "หวาน",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "แข่ง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "คี่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "สู", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ย่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ท่า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "คื", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "อยา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "บ้า", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ไว้", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "กว่า",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "สาย", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "วัว", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขม", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ขิง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แทน", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ทอง", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เค", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เฮ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เฮา", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "ร้าน",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  {
+    "character": "ห้อง",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "แน่", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "ๆ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  {
+    "character": "เถ้า",
+    "tone": null,
+    "class": null,
+    "length": null,
+    "dead": null,
+    "marker": null
+  },
+  { "character": "คุณ", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แค", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "เล", "tone": null, "class": null, "length": null, "dead": null, "marker": null },
+  { "character": "แบ่ง", "tone": null, "class": null, "length": null, "dead": null, "marker": null }
+]
