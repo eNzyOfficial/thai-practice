@@ -110,7 +110,7 @@ function shuffleCharacters(value) {
 
         <div class="flex flex-col flex-grow p-4">
             <div class="flex flex-col text-center flex-grow justify-center">
-                <p v-if="!gameFinished" class="text-8xl">{{ currentCharacter.consonant }}</p>
+                <p v-if="!gameFinished" class="text-8xl">ห{{ currentCharacter.consonant }}</p>
                 <span v-if="!gameFinished" class="text-sm text-slate-200 cursor-default" @click="cheat = !cheat">{{
                     cheat ?
                         (currentCharacter.valid ? 'valid' : 'invalid') :
