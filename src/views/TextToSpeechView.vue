@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
 const synth = window.speechSynthesis;
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -10,6 +10,8 @@ const rate = ref(1);
 const text = ref('');
 const recording = ref(false);
 const log = ref('');
+
+const currentVoice = computed(() => voices.value[voiceIndex.value]);
 
 onMounted(() => {
     recognition.lang = 'th-TH';
@@ -79,9 +81,9 @@ function speechToText() {
         </div>
 
         <div class="flex flex-col mb-4">
-            <label for="voice">TTS Voice: </label>
+            <label for="voice">TTS Voice {{ currentVoice ? currentVoice.lang : '' }}: </label>
             <select id="voice" v-model="voiceIndex" class="border rounded border-slate-700">
-                <option v-for="(voice, index) in voices" :key="index" :value="index">{{ voice.name }} {{ voice.lang }}
+                <option v-for="(voice, index) in voices" :key="index" :value="index">({{ index }}) {{ voice.name }} {{ voice.lang }}
                 </option>
             </select>
         </div>
