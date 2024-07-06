@@ -9,23 +9,30 @@ const voiceIndex = ref(null);
 const rate = ref(1);
 const text = ref('');
 const recording = ref(false);
+const log = ref('');
 
 onMounted(() => {
     recognition.lang = 'th-TH';
+    recognition.continuous = true;
 
     recognition.onstart = function() {
-        text.value = 'Speech recognition started. Speak into the microphone.';
+        log.value = 'Speech recognition started. Speak into the microphone.';
     }
 
     recognition.onresult = (event) => {
-        const transcript = event.results[0][0].transcript;
-        const confidence = event.results[0][0].confidence;
+        // const transcript = event.results[0][0].transcript;
+        // const confidence = event.results[0][0].confidence;
 
-        text.value = transcript + ' (confidence: ' + confidence + ')';
+        const accumulatedResult = [];
+      for (const result of event.results) accumulatedResult.push(`${result[0].transcript} (confidence: ${result[0].confidence})`);
+
+      text.value = accumulatedResult.join('\n');
+
+        // text.value = transcript + ' (confidence: ' + confidence + ')';
     };
 
     recognition.onerror = function(event) {
-        text.value = 'Speech recognition error detected: ' + event.error;
+        log.value = 'Speech recognition error detected: ' + event.error;
     };
 
     synth.onvoiceschanged = () => {
@@ -86,5 +93,7 @@ function speechToText() {
 
         <button @click="tts" class="rounded bg-slate-600 text-white p-4 py-2">Speak</button>
         <button @click="speechToText" class="rounded bg-slate-600 text-white p-4 py-2 ml-4">{{ !recording ? 'Record' : 'Finished' }}</button>
+
+        <div>{{ log }}</div>
     </div>
 </template>
