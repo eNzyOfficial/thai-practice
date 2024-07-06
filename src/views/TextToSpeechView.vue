@@ -50,11 +50,10 @@ onMounted(() => {
 
 function tts() {
     const utterance = new SpeechSynthesisUtterance(text.value);
-    // utterance.voiceURI = 'native';
-    utterance.lang = 'th-TH';
 
-    if (voices.value[voiceIndex.value]) {
-        utterance.voice = voices.value[voiceIndex.value];
+    if (currentVoice.value) {
+        utterance.lang = currentVoice.value.lang;
+        utterance.voice = currentVoice.value;
     }
 
     utterance.rate = rate.value;
