@@ -13,6 +13,7 @@ import VowelFormChangeView from '../views/VowelFormChangeView.vue';
 import WordSorter from '../views/WordSorter.vue';
 import ConsonantLeadByHawHeepView from '../views/ConsonantLeadByHawHeepView.vue';
 import ConsonantClusterView from '../views/ConsonantClusterView.vue';
+import TextToSpeechView from '../views/TextToSpeechView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -86,6 +87,11 @@ const router = createRouter({
       path: '/tone/sorter',
       name: 'tone-sorter',
       component: WordSorter
+    },
+    {
+      path: '/text-to-speech',
+      name: 'text-to-speech',
+      component: TextToSpeechView
     }
   ]
 })
