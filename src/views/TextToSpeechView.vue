@@ -65,11 +65,7 @@ function speechToText() {
 </script>
 
 <template>
-    <div v-if="voiceIndex">
-        Unable to find Thai voice.
-    </div>
-
-    <div class="p-4" v-else>
+    <div class="p-4">
         <div class="flex flex-col mb-4">
             <label for="rate">Rate ({{ rate }}): </label>
             <input type="range" id="rate" min="0.5" max="2" v-model="rate" step="0.1">
