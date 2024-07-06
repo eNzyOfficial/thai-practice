@@ -52,7 +52,7 @@ function tts() {
     utterance.lang = 'th-TH';
 
     if (voices.value[voiceIndex.value]) {
-        utterance.voice = 46;//voices.value[voiceIndex.value];
+        utterance.voice = voices.value[voiceIndex.value];
     }
 
     utterance.rate = rate.value;
@@ -79,7 +79,7 @@ function speechToText() {
         </div>
 
         <div class="flex flex-col mb-4">
-            <label for="voice">Voice: </label>
+            <label for="voice">TTS Voice: </label>
             <select id="voice" v-model="voiceIndex" class="border rounded border-slate-700">
                 <option v-for="(voice, index) in voices" :key="index" :value="index">{{ voice.name }} {{ voice.lang }}
                 </option>
