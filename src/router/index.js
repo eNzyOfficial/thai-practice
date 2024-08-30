@@ -14,6 +14,7 @@ import WordSorter from '../views/WordSorter.vue';
 import ConsonantLeadByHawHeepView from '../views/ConsonantLeadByHawHeepView.vue';
 import ConsonantClusterView from '../views/ConsonantClusterView.vue';
 import TextToSpeechView from '../views/TextToSpeechView.vue';
+import GrammarCheatsheetView from '../views/GrammarCheatsheetView.vue';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -92,6 +93,11 @@ const router = createRouter({
       path: '/text-to-speech',
       name: 'text-to-speech',
       component: TextToSpeechView
+    },
+    {
+      path: '/grammar/cheatsheet',
+      name: 'grammar-cheatsheet',
+      component: GrammarCheatsheetView
     }
   ]
 })
