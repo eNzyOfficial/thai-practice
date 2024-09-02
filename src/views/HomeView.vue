@@ -7,6 +7,9 @@
     <p class="text-center text-2xl mb-4">Practice Thai</p>
 
     <van-space direction="vertical" fill>
+      <van-divider>Grammar</van-divider>
+      <van-button type="primary" block :to="{ name: 'grammar-cheatsheet' }">Cheatsheet</van-button>
+      
       <van-divider>Characters</van-divider>
       <van-button type="primary" block :to="{ name: 'character-info' }">Info</van-button>
       <van-button type="primary" block :to="{ name: 'character-audio' }">Audio</van-button>
